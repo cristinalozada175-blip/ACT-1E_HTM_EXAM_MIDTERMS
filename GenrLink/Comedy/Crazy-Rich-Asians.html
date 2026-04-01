@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ACEflix - Action</title>
+  <link rel="stylesheet" href="../../css/movie.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="../../home.html">
+        <h1 class="logo">ACEflix</h1>
+      </a>
+    </div>
+
+    <div class="nav-center">
+      <input type="text" placeholder="Search movies..." class="search-bar">
+    </div>
+
+    <div class="nav-right">
+      <a href="../../login.html">Login</a>
+    </div>
+  </nav>
+
+  <!-- GENRES + TABS -->
+  <div class="container">
+    <main class="main-content">
+      <div class="top-controls">
+        <select class="genre-dropdown" onchange="goToPage(this.value)">
+          <option value="">Genres</option>
+          <option value="../../Genre/all-genre.html">ALL genres</option>
+          <option value="../../Genre/action.html">Action</option>
+          <option value="../../Genre/animation.html">Animation</option>
+          <option value="../../Genre/comedy.html">Comedy</option>
+          <option value="../../Genre/documentary.html">Documentary</option>
+          <option value="../../Genre/drama.html">Drama</option>
+          <option value="../../Genre/fantasy.html">Fantasy</option>
+          <option value="../../Genre/horror.html">Horror</option>
+          <option value="../../Genre/musical.html">Musical</option>
+          <option value="../../Genre/romance.html">Romance</option>
+          <option value="../../Genre/sci-fi.html">Sci-Fi</option>
+          <option value="../../Genre/sports.html">Sports</option>
+          <option value="../../Genre/thriller.html">Thriller</option>
+        </select>
+
+        <script>
+          function goToPage(page) {
+            window.location.href = page;
+          }
+        </script>
+
+        <div class="tabs">
+          <button>Featured</button>
+          <button>Popular</button>
+          <button>New</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- MOVIE HERO FULL WIDTH -->
+  <section class="movie-hero">
+
+    <div class="overlay">
+        <img src="../../photo/Comedy/landscape/Crazy Rich Asians.JPG" alt="Crazy Rich Asians">
+    </div>
+
+    <div class="movie-content">
+      <div class="poster">
+        <img src="../../photo/Comedy/portrait/Crazy Rich Asians.JPG" alt="Crazy Rich Asians">
+      </div>
+
+      <div class="info">
+        <h1>Crazy Rich Asians</h1>
+
+        <div class="meta">
+          <span class="tag">HD</span>
+          <span>IMDb 8.1</span>
+        </div>
+
+        <div class="buttons">
+          <button>▶ Server UpCloud</button>
+          <button>▶ Server AKCloud</button>
+          <button>▶ Server MegaCloud</button>
+        </div> <br>
+
+        <h3>Overview:</h3>
+        <p class="overview">
+          Rachel Chu discovers her boyfriend belongs to one of Singapore’s wealthiest 
+          families. She must navigate cultural differences, family drama, and 
+          hilarious social obstacles during a lavish wedding season.
+        </p>
+
+        <div class="extra">
+          <p><strong>Release Date:</strong> August 15, 2018</p>
+          <p><strong>Cast:</strong> Constance Wu, Henry Golding</p>
+          <p><strong>Duration:</strong> 121 minutes</p>
+          <p><strong>Country:</strong> USA</p>
+          <p><strong>Production:</strong> Warner Bros.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="movie-section">
+    <h2>You may also like</h2>
+
+    <div class="movie-grid">
+
+        <a href="../../GenrLink/Comedy/The-40-Year-Old-Virgin.html">
+            <div class="movie-card">
+                <img src="../../photo/Comedy/landscape/The 40-Year-Old Virgin.JPG">
+                <p>The 40-Year-Old Virgin</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Comedy/Zombieland.html">
+            <div class="movie-card">
+                <img src="../../photo/Comedy/landscape/Zombieland.JPG">
+                <p>Zombieland</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Comedy/The-Mask.html">
+            <div class="movie-card">
+                <img src="../../photo/Comedy/landscape/The Mask.AVIF">
+                <p>The Mask</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Comedy/Bridesmaids.html">
+            <div class="movie-card">
+                <img src="../../photo/Comedy/landscape/Bridesmaids.JPG">
+                <p>Bridesmaids</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Comedy/Johnny-English.html">
+            <div class="movie-card">
+                <img src="../../photo/Comedy/landscape/Johnny English.WEBP">
+                <p>Johnny English</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Comedy/Superbad.html">
+            <div class="movie-card">
+                <img src="../../photo/Comedy/landscape/Superbad.WEBP">
+                <p>Superbad</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Comedy/Deadpool.html">
+            <div class="movie-card">
+                <img src="../../photo/Comedy/landscape/Deadpool.WEBP">
+                <p>Deadpool</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Comedy/Legally-Blonde.html">
+            <div class="movie-card">
+                <img src="../../photo/Comedy/landscape/Legally Blonde.JPG">
+                <p>Legally Blonde</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Comedy/Mean-Girls.html">
+            <div class="movie-card">
+                <img src="../../photo/Comedy/landscape/Mean Girls.JPG">
+                <p>Mean Girls</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Comedy/Pitch-Perfect.html">
+            <div class="movie-card">
+                <img src="../../photo/Comedy/landscape/Pitch Perfect.JPG">
+                <p>Pitch Perfect</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Comedy/School-of-Rock.html">
+            <div class="movie-card">
+                <img src="../../photo/Comedy/landscape/School of Rock.JPG">
+                <p>School of Rock</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Comedy/Home-Alone.html">
+            <div class="movie-card">
+                <img src="../../photo/Comedy/landscape/Home Alone.JPG">
+                <p>Home Alone</p>
+            </div>
+        </a>
+
+    </div>
+</section>
+
+</body>
+</html>

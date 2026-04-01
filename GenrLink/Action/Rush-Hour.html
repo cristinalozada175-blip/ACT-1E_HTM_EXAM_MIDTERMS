@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ACEflix - Action</title>
+  <link rel="stylesheet" href="../../css/movie.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="../../home.html">
+        <h1 class="logo">ACEflix</h1>
+      </a>
+    </div>
+
+    <div class="nav-center">
+      <input type="text" placeholder="Search movies..." class="search-bar">
+    </div>
+
+    <div class="nav-right">
+      <a href="../../login.html">Login</a>
+    </div>
+  </nav>
+
+  <!-- GENRES + TABS -->
+  <div class="container">
+    <main class="main-content">
+      <div class="top-controls">
+        <select class="genre-dropdown" onchange="goToPage(this.value)">
+          <option value="">Genres</option>
+          <option value="../../Genre/all-genre.html">ALL genres</option>
+          <option value="../../Genre/action.html">Action</option>
+          <option value="../../Genre/animation.html">Animation</option>
+          <option value="../../Genre/comedy.html">Comedy</option>
+          <option value="../../Genre/documentary.html">Documentary</option>
+          <option value="../../Genre/drama.html">Drama</option>
+          <option value="../../Genre/fantasy.html">Fantasy</option>
+          <option value="../../Genre/horror.html">Horror</option>
+          <option value="../../Genre/musical.html">Musical</option>
+          <option value="../../Genre/romance.html">Romance</option>
+          <option value="../../Genre/sci-fi.html">Sci-Fi</option>
+          <option value="../../Genre/sports.html">Sports</option>
+          <option value="../../Genre/thriller.html">Thriller</option>
+        </select>
+
+        <script>
+          function goToPage(page) {
+            window.location.href = page;
+          }
+        </script>
+
+        <div class="tabs">
+          <button>Featured</button>
+          <button>Popular</button>
+          <button>New</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- MOVIE HERO FULL WIDTH -->
+  <section class="movie-hero">
+
+    <div class="overlay">
+        <img src="../../photo/Action/landscape/Rush Hour.JPG" alt="Rush Hour">
+    </div>
+
+    <div class="movie-content">
+      <div class="poster">
+        <img src="../../photo/Action/portrait/Rush-Hour.JPG" alt="Rush Hour">
+      </div>
+
+      <div class="info">
+        <h1>Rush Hour</h1>
+
+        <div class="meta">
+          <span class="tag">HD</span>
+          <span>IMDb 7.6</span>
+        </div>
+
+        <div class="buttons">
+          <button>▶ Server UpCloud</button>
+          <button>▶ Server AKCloud</button>
+          <button>▶ Server MegaCloud</button>
+        </div> <br>
+
+        <h3>Overview:</h3>
+        <p class="overview">
+          A disciplined Hong Kong detective teams up with a loud and comedic LAPD 
+          officer to solve crimes. Despite their differences, their partnership 
+          leads to both hilarious situations and successful missions.
+        </p>
+
+        <div class="extra">
+          <p><strong>Release Date:</strong> September 18, 1998</p>
+          <p><strong>Cast:</strong> Jackie Chan, Chris Tucker</p>
+          <p><strong>Duration:</strong> ~95 – 110 minutes</p>
+          <p><strong>Country:</strong> USA </p>
+          <p><strong>Production:</strong> New Line Cinema</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="movie-section">
+    <h2>You may also like</h2>
+
+    <div class="movie-grid">
+
+        <a href="../../GenrLink/Action/Justice-League.html">
+            <div class="movie-card">
+                <img src="../../photo/Action/landscape/Justice League.JPG">
+                <p>Justice League</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Action/Baywatch.html">
+            <div class="movie-card">
+                <img src="../../photo/Action/landscape/Baywatch.AVIF">
+                <p>Baywatch</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Action/Gladiator.html">
+            <div class="movie-card">
+                <img src="../../photo/Action/landscape/Gladiator.AVIF">
+                <p>Gladiator</p>
+            </div>
+        </a>
+
+
+        <a href="../../GenrLink/Action/Jumanji.html">
+            <div class="movie-card">
+                <img src="../../photo/Action/landscape/Jumanji.JPG">
+                <p>Jumanji</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Action/Justice-League.html">
+            <div class="movie-card">
+                <img src="../../photo/Action/landscape/Justice League.JPG">
+                <p>Justice League</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Action/John-Wick.html">
+            <div class="movie-card">
+                <img src="../../photo/Action/landscape/John Wick.JPG">
+                <p>John Wick</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Action/Wanted.html">
+            <div class="movie-card">
+                <img src="../../photo/Action/landscape/Wanted.JPG">
+                <p>wanted</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Action/The-Karate-Kid.html">
+            <div class="movie-card">
+                <img src="../../photo/Action/landscape/The Karate Kid.JPG">
+                <p>The Karate Kid</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Action/Baby-Driver.html">
+            <div class="movie-card">
+                <img src="../../photo/Action/landscape/baby driver.JPG">
+                <p>Baby Driver</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Action/Mission-Impossible.html">
+            <div class="movie-card">
+                <img src="../../photo/Action/landscape/Mission Impossible.PNG">
+                <p>Mission: Impossible</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Action/Mortal-Kombat.html ">
+            <div class="movie-card">
+                <img src="../../photo/Action/landscape/Mortal Kombat.JPG">
+                <p>Mortal Kombat</p>
+            </div>
+        </a>
+
+
+        <a href="../../GenrLink/Action/Skyscraper.html">
+            <div class="movie-card">
+                <img src="../../photo/Action/landscape/Skyscraper.WEBP">
+                <p>Skyscraper</p>
+            </div>
+        </a>
+
+    </div>
+</section>
+
+</body>
+</html>

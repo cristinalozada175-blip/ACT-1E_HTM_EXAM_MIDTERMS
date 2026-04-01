@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ACEflix - Action</title>
+  <link rel="stylesheet" href="../../css/movie.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="../../home.html">
+        <h1 class="logo">ACEflix</h1>
+      </a>
+    </div>
+
+    <div class="nav-center">
+      <input type="text" placeholder="Search movies..." class="search-bar">
+    </div>
+
+    <div class="nav-right">
+      <a href="../../login.html">Login</a>
+    </div>
+  </nav>
+
+  <!-- GENRES + TABS -->
+  <div class="container">
+    <main class="main-content">
+      <div class="top-controls">
+        <select class="genre-dropdown" onchange="goToPage(this.value)">
+          <option value="">Genres</option>
+          <option value="../../Genre/all-genre.html">ALL genres</option>
+          <option value="../../Genre/action.html">Action</option>
+          <option value="../../Genre/animation.html">Animation</option>
+          <option value="../../Genre/comedy.html">Comedy</option>
+          <option value="../../Genre/documentary.html">Documentary</option>
+          <option value="../../Genre/drama.html">Drama</option>
+          <option value="../../Genre/fantasy.html">Fantasy</option>
+          <option value="../../Genre/horror.html">Horror</option>
+          <option value="../../Genre/musical.html">Musical</option>
+          <option value="../../Genre/romance.html">Romance</option>
+          <option value="../../Genre/sci-fi.html">Sci-Fi</option>
+          <option value="../../Genre/sports.html">Sports</option>
+          <option value="../../Genre/thriller.html">Thriller</option>
+        </select>
+
+        <script>
+          function goToPage(page) {
+            window.location.href = page;
+          }
+        </script>
+
+        <div class="tabs">
+          <button>Featured</button>
+          <button>Popular</button>
+          <button>New</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- MOVIE HERO FULL WIDTH -->
+  <section class="movie-hero">
+
+    <div class="overlay">
+        <img src="../../photo/Animation/landscape/Demon Slayer Kimetsu no Yaiba.JPG" alt="Demon Slayer: Kimetsu no Yaiba">
+    </div>
+
+    <div class="movie-content">
+      <div class="poster">
+        <img src="../../photo/Animation/portrait/Demon-Slayer.JPG" alt="Demon Slayer: Kimetsu no Yaiba">
+      </div>
+
+      <div class="info">
+        <h1>Demon Slayer: Kimetsu no Yaiba</h1>
+
+        <div class="meta">
+          <span class="tag">HD</span>
+          <span>IMDb 8.1</span>
+        </div>
+
+        <div class="buttons">
+          <button>▶ Server UpCloud</button>
+          <button>▶ Server AKCloud</button>
+          <button>▶ Server MegaCloud</button>
+        </div> <br>
+
+        <h3>Overview:</h3>
+        <p class="overview">
+          After demons slaughter his family and turn his sister into one, 
+          Tanjiro Kamado joins the Demon Slayer Corps. He trains and fights 
+          powerful demons in hopes of saving his sister and avenging his family.
+        </p>
+
+        <div class="extra">
+          <p><strong>Release Date:</strong> April 6, 2019</p>
+          <p><strong>Cast:</strong> Natsuki Hanae, Akari Kito</p>
+          <p><strong>Duration:</strong> ~23 minutes per episode</p>
+          <p><strong>Country:</strong> Japan</p>
+          <p><strong>Production:</strong> Ufotable</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="movie-section">
+    <h2>You may also like</h2>
+
+    <div class="movie-grid">
+
+        <a href="../../GenrLink/Animation/Hunter-x-Hunter.html">
+            <div class="movie-card">
+                <img src="../../photo/Animation/landscape/Hunter × Hunter.JPG">
+                <p>Hunter × Hunter</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Animation/Haikyuu.html">
+            <div class="movie-card">
+                <img src="../../photo/Animation/landscape/Haikyuu!!.jfif">
+                <p>Haikyuu!!</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Animation/Sailor-Moon.html">
+            <div class="movie-card">
+                <img src="../../photo/Animation/landscape/sailormoon.jpg">
+                <p>Sailor Moon R: The Promise of the Rose</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Animation/That-Time-I-Got-Reincarnated-as-a-Slime.html">
+            <div class="movie-card">
+                <img src="../../photo/Animation/landscape/That Time I Got Reincarnated as a Slime.JPG">
+                <p>That Time I Got Reincarnated as a Slime</p>
+            </div>
+        </a>
+
+
+        <a href="../../GenrLink/Animation/Doraemon.html">
+            <div class="movie-card">
+                <img src="../../photo/Animation/landscape/Doraemon.JPG">
+                <p>Doraemon</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Animation/One-Piece-The-Movie.html">
+            <div class="movie-card">
+                <img src="../../photo/Animation/landscape/One-Piece-The-Movie.jfif">
+                <p>One Piece: The Movie</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Animation/Demon Slayer-Kimetsu-no-Yaiba.html">
+            <div class="movie-card">
+                <img src="../../photo/Animation/landscape/Demon Slayer Kimetsu no Yaiba.JPG">
+                <p>Demon Slayer: Kimetsu no Yaiba</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Animation/Weathering-with-You.html">
+            <div class="movie-card">
+                <img src="../../photo/Animation/landscape/Weathering with You.JPG">
+                <p>Weathering with You</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Animation/One-Punch-Man.html">
+            <div class="movie-card">
+                <img src="../../photo/Animation/landscape/One-Punch Man.JPG">
+                <p>One-Punch Man</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Animation/Bungo-Stray-Dogs.html">
+            <div class="movie-card">
+                <img src="../../photo/Animation/landscape/Bungo Stray Dogs.JPG">
+                <p>Bungo Stray Dogs</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Animation/Kuroko’s-Basketball.html">
+            <div class="movie-card">
+                <img src="../../photo/Animation/landscape/Kuroko’s Basketball.JPG">
+                <p>Kuroko’s Basketball</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Animation/Detective-Billionaire-Balance-Unlimited.html">
+            <div class="movie-card">
+                <img src="../../photo/Animation/landscape/Detective Billionaire Balance Unlimited.JPG">
+                <p>Detective Billionaire: Balance Unlimited</p>
+            </div>
+        </a>
+
+
+    </div>
+</section>
+
+</body>
+</html>
