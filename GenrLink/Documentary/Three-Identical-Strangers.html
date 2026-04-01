@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ACEflix - Action</title>
+  <link rel="stylesheet" href="../../css/movie.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="../../home.html">
+        <h1 class="logo">ACEflix</h1>
+      </a>
+    </div>
+
+    <div class="nav-center">
+      <input type="text" placeholder="Search movies..." class="search-bar">
+    </div>
+
+    <div class="nav-right">
+      <a href="../../login.html">Login</a>
+    </div>
+  </nav>
+
+  <!-- GENRES + TABS -->
+  <div class="container">
+    <main class="main-content">
+      <div class="top-controls">
+        <select class="genre-dropdown" onchange="goToPage(this.value)">
+          <option value="">Genres</option>
+          <option value="../../Genre/all-genre.html">ALL genres</option>
+          <option value="../../Genre/action.html">Action</option>
+          <option value="../../Genre/animation.html">Animation</option>
+          <option value="../../Genre/comedy.html">Comedy</option>
+          <option value="../../Genre/documentary.html">Documentary</option>
+          <option value="../../Genre/drama.html">Drama</option>
+          <option value="../../Genre/fantasy.html">Fantasy</option>
+          <option value="../../Genre/horror.html">Horror</option>
+          <option value="../../Genre/musical.html">Musical</option>
+          <option value="../../Genre/romance.html">Romance</option>
+          <option value="../../Genre/sci-fi.html">Sci-Fi</option>
+          <option value="../../Genre/sports.html">Sports</option>
+          <option value="../../Genre/thriller.html">Thriller</option>
+        </select>
+
+        <script>
+          function goToPage(page) {
+            window.location.href = page;
+          }
+        </script>
+
+        <div class="tabs">
+          <button>Featured</button>
+          <button>Popular</button>
+          <button>New</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- MOVIE HERO FULL WIDTH -->
+  <section class="movie-hero">
+
+    <div class="overlay">
+        <img src="../../photo/Documentary/landscape/Three Identical Strangers.JPG" alt="Three Identical Strangers">
+    </div>
+
+    <div class="movie-content">
+      <div class="poster">
+        <img src="../../photo/Documentary/portrait/Three Identical Strangers.PNG" alt="Three Identical Strangers">
+      </div>
+
+      <div class="info">
+        <h1>Three Identical Strangers</h1>
+
+        <div class="meta">
+          <span class="tag">HD</span>
+          <span>IMDb 8.1</span>
+        </div>
+
+        <div class="buttons">
+          <button>▶ Server UpCloud</button>
+          <button>▶ Server AKCloud</button>
+          <button>▶ Server MegaCloud</button>
+        </div> <br>
+
+        <h3>Overview:</h3>
+        <p class="overview">
+           Tells the story of three identical triplets separated at 
+           birth who unexpectedly meet as adults. The film reveals 
+           shocking ethical questions behind their adoption.
+        </p>
+
+        <div class="extra">
+          <p><strong>Release Date:</strong> May 17, 2018</p>
+          <p><strong>Cast:</strong> Robert Shafran, David Kellman, Eddy Galland</p>
+          <p><strong>Duration:</strong> 96 minutes</p>
+          <p><strong>Country:</strong> UK /USA</p>
+          <p><strong>Production:</strong> Magnolia Pictures</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="movie-section">
+    <h2>You may also like</h2>
+
+    <div class="movie-grid">
+
+        <a href="../../GenrLink/Documentary/Bowling-for-Columbine.html">
+            <div class="movie-card">
+                <img src="../../photo/Documentary/landscape/Bowling for Columbine.JPG">
+                <p>Bowling for Columbine</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Documentary/Super-Size-Me.html">
+            <div class="movie-card">
+                <img src="../../photo/Documentary/landscape/Super Size Me.JPG">
+                <p>Super Size Me</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Documentary/Free-Solo.html">
+            <div class="movie-card">
+                <img src="../../photo/Documentary/landscape/Free Solo.JPG">
+                <p>Free Solo</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Documentary/Won’t-You-Be-My-Neighbor.html">
+            <div class="movie-card">
+                <img src="../../photo/Documentary/landscape/Won’t You Be My Neighbor.JPG">
+                <p>Won’t You Be My Neighbor?</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Documentary/The-Social-Dilemma.html">
+            <div class="movie-card">
+                <img src="../../photo/Documentary/landscape/The Social Dilemma.WEBP">
+                <p>The Social Dilemma</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Documentary/Man-on-Wire.html">
+            <div class="movie-card">
+                <img src="../../photo/Documentary/landscape/Man on Wire.JPG">
+                <p>Man on Wire</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Documentary/Icarus.html">
+            <div class="movie-card">
+                <img src="../../photo/Documentary/landscape/Icarus.JPG">
+                <p>Icarus</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Documentary/American-Factory.html">
+            <div class="movie-card">
+                <img src="../../photo/Documentary/landscape/American Factory.JPG">
+                <p>American Factory</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Documentary/Blackfish.html">
+            <div class="movie-card">
+                <img src="../../photo/Documentary/landscape/Blackfish.JPG">
+                <p>Blackfish</p>
+            </div>
+        </a>
+
+
+        <a href="../../GenrLink/Documentary/March-of-the-Penguins.html">
+            <div class="movie-card">
+                <img src="../../photo/Documentary/landscape/March of the Penguins.JPG">
+                <p>March of the Penguins</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Documentary/Citizenfour.html">
+            <div class="movie-card">
+                <img src="../../photo/Documentary/landscape/Citizenfour.WEBP">
+                <p>Citizenfour</p>
+            </div>
+        </a>
+
+
+        <a href="../../GenrLink/Documentary/Earthlings.html">
+            <div class="movie-card">
+                <img src="../../photo/Documentary/landscape/Earthlings.AVIF">
+                <p>Earthlings</p>
+            </div>
+        </a>
+
+    </div>
+</section>
+
+</body>
+</html>

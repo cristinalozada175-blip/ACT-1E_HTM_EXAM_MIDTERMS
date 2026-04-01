@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ACEflix - Action</title>
+  <link rel="stylesheet" href="../../css/movie.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="../../home.html">
+        <h1 class="logo">ACEflix</h1>
+      </a>
+    </div>
+
+    <div class="nav-center">
+      <input type="text" placeholder="Search movies..." class="search-bar">
+    </div>
+
+    <div class="nav-right">
+      <a href="../../login.html">Login</a>
+    </div>
+  </nav>
+
+  <!-- GENRES + TABS -->
+  <div class="container">
+    <main class="main-content">
+      <div class="top-controls">
+        <select class="genre-dropdown" onchange="goToPage(this.value)">
+          <option value="">Genres</option>
+          <option value="../../Genre/all-genre.html">ALL genres</option>
+          <option value="../../Genre/action.html">Action</option>
+          <option value="../../Genre/animation.html">Animation</option>
+          <option value="../../Genre/comedy.html">Comedy</option>
+          <option value="../../Genre/documentary.html">Documentary</option>
+          <option value="../../Genre/drama.html">Drama</option>
+          <option value="../../Genre/fantasy.html">Fantasy</option>
+          <option value="../../Genre/horror.html">Horror</option>
+          <option value="../../Genre/musical.html">Musical</option>
+          <option value="../../Genre/romance.html">Romance</option>
+          <option value="../../Genre/sci-fi.html">Sci-Fi</option>
+          <option value="../../Genre/sports.html">Sports</option>
+          <option value="../../Genre/thriller.html">Thriller</option>
+        </select>
+
+        <script>
+          function goToPage(page) {
+            window.location.href = page;
+          }
+        </script>
+
+        <div class="tabs">
+          <button>Featured</button>
+          <button>Popular</button>
+          <button>New</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- MOVIE HERO FULL WIDTH -->
+  <section class="movie-hero">
+
+    <div class="overlay">
+        <img src="../../photo/Drama/landscape/A Beautiful Mind.JPG" alt="A Beautiful Mind">
+    </div>
+
+    <div class="movie-content">
+      <div class="poster">
+        <img src="../../photo/Drama/portrait/A Beautiful Mind.JPG" alt="A Beautiful Mind">
+      </div>
+
+      <div class="info">
+        <h1>A Beautiful Mind</h1>
+
+        <div class="meta">
+          <span class="tag">HD</span>
+          <span>IMDb 8.1</span>
+        </div>
+
+        <div class="buttons">
+          <button>▶ Server UpCloud</button>
+          <button>▶ Server AKCloud</button>
+          <button>▶ Server MegaCloud</button>
+        </div> <br>
+
+        <h3>Overview:</h3>
+        <p class="overview">
+          The story follows brilliant mathematician John Nash, whose groundbreaking 
+          work is challenged by his battle with schizophrenia. With the support 
+          of his wife, he struggles to distinguish reality from illusion.
+        </p>
+
+        <div class="extra">
+          <p><strong>Release Date:</strong> December 21, 2001</p>
+          <p><strong>Cast:</strong> Russell Crowe, Jennifer Connelly</p>
+          <p><strong>Duration:</strong> 135 minutes</p>
+          <p><strong>Country:</strong> USA</p>
+          <p><strong>Production:</strong> Universal Pictures</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="movie-section">
+    <h2>You may also like</h2>
+
+    <div class="movie-grid">
+
+        <a href="../../GenrLink/Drama/12-Years-a-Slave.html">
+            <div class="movie-card">
+                <img src="../../photo/Drama/landscape/12 Years a Slave.JPG">
+                <p>12 Years a Slave</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Drama/Titanic.html ">
+            <div class="movie-card">
+                <img src="../../photo/Drama/landscape/Titanic.JPG">
+                <p>Titanic</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Drama/The-Whale.html">
+            <div class="movie-card">
+                <img src="../../photo/Drama/landscape/The Whale.JPG">
+                <p>The Whale</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Drama/Dead-Poets-Society.html">
+            <div class="movie-card">
+                <img src="../../photo/Drama/landscape/Dead Poets Society.JPG">
+                <p>Dead Poets Society</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Drama/The-Shawshank-Redemption.html">
+            <div class="movie-card">
+                <img src="../../photo/Drama/landscape/The Shawshank Redemption.JPG">
+                <p>The Shawshank Redemption</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Drama/Forrest-Gump.html">
+            <div class="movie-card">
+                <img src="../../photo/Drama/landscape/Forrest Gump.JPG">
+                <p>Forrest Gump</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Drama/Good-Will-Hunting.html">
+            <div class="movie-card">
+                <img src="../../photo/Drama/landscape/Good Will Hunting.JPG">
+                <p>Good Will Hunting</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Drama/Little-Women.html">
+            <div class="movie-card">
+                <img src="../../photo/Drama/landscape/Little Women.JPG">
+                <p>Little Women</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Drama/Manchester-by-the-Sea.html">
+            <div class="movie-card">
+                <img src="../../photo/Drama/landscape/Manchester by the Sea.JPG">
+                <p>Manchester by the Sea</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Drama/Marriage-Story.html">
+            <div class="movie-card">
+                <img src="../../photo/Drama/landscape/Marriage Story.JPG">
+                <p>Marriage Story</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Drama/Moonlight.html">
+            <div class="movie-card">
+                <img src="../../photo/Drama/landscape/Moonlight.JPG">
+                <p>Moonlight</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Drama/The-Fault-in-Our-Stars.html">
+            <div class="movie-card">
+                <img src="../../photo/Drama/landscape/The Fault in Our Stars.JPG">
+                <p>The Fault in Our Stars</p>
+            </div>
+        </a>
+
+    </div>
+</section>
+
+</body>
+</html>

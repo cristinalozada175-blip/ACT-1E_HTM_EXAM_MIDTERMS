@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ACEflix - Action</title>
+  <link rel="stylesheet" href="../../css/movie.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="../../home.html">
+        <h1 class="logo">ACEflix</h1>
+      </a>
+    </div>
+
+    <div class="nav-center">
+      <input type="text" placeholder="Search movies..." class="search-bar">
+    </div>
+
+    <div class="nav-right">
+      <a href="../../login.html">Login</a>
+    </div>
+  </nav>
+
+  <!-- GENRES + TABS -->
+  <div class="container">
+    <main class="main-content">
+      <div class="top-controls">
+        <select class="genre-dropdown" onchange="goToPage(this.value)">
+          <option value="">Genres</option>
+          <option value="../../Genre/all-genre.html">ALL genres</option>
+          <option value="../../Genre/action.html">Action</option>
+          <option value="../../Genre/animation.html">Animation</option>
+          <option value="../../Genre/comedy.html">Comedy</option>
+          <option value="../../Genre/documentary.html">Documentary</option>
+          <option value="../../Genre/drama.html">Drama</option>
+          <option value="../../Genre/fantasy.html">Fantasy</option>
+          <option value="../../Genre/horror.html">Horror</option>
+          <option value="../../Genre/musical.html">Musical</option>
+          <option value="../../Genre/romance.html">Romance</option>
+          <option value="../../Genre/sci-fi.html">Sci-Fi</option>
+          <option value="../../Genre/sports.html">Sports</option>
+          <option value="../../Genre/thriller.html">Thriller</option>
+        </select>
+
+        <script>
+          function goToPage(page) {
+            window.location.href = page;
+          }
+        </script>
+
+        <div class="tabs">
+          <button>Featured</button>
+          <button>Popular</button>
+          <button>New</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- MOVIE HERO FULL WIDTH -->
+  <section class="movie-hero">
+
+    <div class="overlay">
+        <img src="../../photo/Horror/LANDSCAPE/The Conjuring.WEBP" alt="The Conjuring">
+    </div>
+
+    <div class="movie-content">
+      <div class="poster">
+        <img src="../../photo/Horror/portrait/The Conjuring.JPG" alt="The Conjuring">
+      </div>
+
+      <div class="info">
+        <h1>The Conjuring</h1>
+
+        <div class="meta">
+          <span class="tag">HD</span>
+          <span>IMDb 8.1</span>
+        </div>
+
+        <div class="buttons">
+          <button>▶ Server UpCloud</button>
+          <button>▶ Server AKCloud</button>
+          <button>▶ Server MegaCloud</button>
+        </div> <br>
+
+        <h3>Overview:</h3>
+        <p class="overview">
+          Paranormal investigators Ed and Lorraine Warren help a 
+          family whose farmhouse is haunted by a dark presence. 
+          As the haunting intensifies, they uncover terrifying 
+          secrets about the house’s past.
+        </p>
+
+        <div class="extra">
+          <p><strong>Release Date:</strong> July 19, 2013</p>
+          <p><strong>Cast:</strong> Patrick Wilson, Vera Farmiga</p>
+          <p><strong>Duration:</strong> 112 minutes</p>
+          <p><strong>Country:</strong> USA</p>
+          <p><strong>Production:</strong>  Warner Bros.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="movie-section">
+    <h2>You may also like</h2>
+
+    <div class="movie-grid">
+
+        <a href="../../GenrLink/Horror/Sinners.html">
+            <div class="movie-card">
+                <img src="../../photo/Horror/landscape/Sinners.JPG">
+                <p>Sinners</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Horror/Bring-Her-Back.html">
+            <div class="movie-card">
+                <img src="../../photo/Horror/landscape/Bring Her Back.WEBP">
+                <p>Bring Her Back</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Horror/Dolly-Dearest.html">
+            <div class="movie-card">
+                <img src="../../photo/Horror/landscape/Dolly Dearest.JPG">
+                <p>Dolly Dearest</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Horror/Insidious.html">
+            <div class="movie-card">
+                <img src="../../photo/Horror/landscape/Insidious.JPG">
+                <p>Insidious</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Horror/Iron-Lung.html">
+            <div class="movie-card">
+                <img src="../../photo/Horror/landscape/Iron Lung.JPG">
+                <p>Iron Lung</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Horror/It.html">
+            <div class="movie-card">
+                <img src="../../photo/Horror/landscape/It.JPG">
+                <p>It</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Horror/Scary-Movie.html">
+            <div class="movie-card">
+                <img src="../../photo/Horror/landscape/Scary Movie.JPG">
+                <p>Scary Movie</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Horror/Scream.html">
+            <div class="movie-card">
+                <img src="../../photo/Horror/landscape/Scream.JPG">
+                <p>Scream</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Horror/Shake-Rattle-&-Roll.html">
+            <div class="movie-card">
+                <img src="../../photo/Horror/landscape/Shake, Rattle & Roll.JPG">
+                <p>Shake, Rattle & Roll</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Horror/The-Witch.html">
+            <div class="movie-card">
+                <img src="../../photo/Horror/landscape/The Witch.WEBP">
+                <p>The Witch</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Horror/The-Bride.html">
+            <div class="movie-card">
+                <img src="../../photo/Horror/landscape/The Bride.WEBP">
+                <p>The Bride</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Horror/The-Gorge.html">
+            <div class="movie-card">
+                <img src="../../photo/Horror/landscape/The Gorge.WEBP">
+                <p>The Gorge</p>
+            </div>
+        </a>
+        
+
+    </div>
+</section>
+
+</body>
+</html>

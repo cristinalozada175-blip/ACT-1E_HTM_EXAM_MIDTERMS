@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ACEflix - Action</title>
+  <link rel="stylesheet" href="../../css/movie.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="../../home.html">
+        <h1 class="logo">ACEflix</h1>
+      </a>
+    </div>
+
+    <div class="nav-center">
+      <input type="text" placeholder="Search movies..." class="search-bar">
+    </div>
+
+    <div class="nav-right">
+      <a href="../../login.html">Login</a>
+    </div>
+  </nav>
+
+  <!-- GENRES + TABS -->
+  <div class="container">
+    <main class="main-content">
+      <div class="top-controls">
+        <select class="genre-dropdown" onchange="goToPage(this.value)">
+          <option value="">Genres</option>
+          <option value="../../Genre/all-genre.html">ALL genres</option>
+          <option value="../../Genre/action.html">Action</option>
+          <option value="../../Genre/animation.html">Animation</option>
+          <option value="../../Genre/comedy.html">Comedy</option>
+          <option value="../../Genre/documentary.html">Documentary</option>
+          <option value="../../Genre/drama.html">Drama</option>
+          <option value="../../Genre/fantasy.html">Fantasy</option>
+          <option value="../../Genre/horror.html">Horror</option>
+          <option value="../../Genre/musical.html">Musical</option>
+          <option value="../../Genre/romance.html">Romance</option>
+          <option value="../../Genre/sci-fi.html">Sci-Fi</option>
+          <option value="../../Genre/sports.html">Sports</option>
+          <option value="../../Genre/thriller.html">Thriller</option>
+        </select>
+
+        <script>
+          function goToPage(page) {
+            window.location.href = page;
+          }
+        </script>
+
+        <div class="tabs">
+          <button>Featured</button>
+          <button>Popular</button>
+          <button>New</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- MOVIE HERO FULL WIDTH -->
+  <section class="movie-hero">
+
+    <div class="overlay">
+        <img src="../../photo/Fantasy/LANDSCAPE/Maleficent.WEBP" alt="Maleficent">
+    </div>
+
+    <div class="movie-content">
+      <div class="poster">
+        <img src="../../photo/Fantasy/portrait/Maleficent.JPG" alt="Maleficent">
+      </div>
+
+      <div class="info">
+        <h1>Maleficent</h1>
+
+        <div class="meta">
+          <span class="tag">HD</span>
+          <span>IMDb 7.8</span>
+        </div>
+
+        <div class="buttons">
+          <button>▶ Server UpCloud</button>
+          <button>▶ Server AKCloud</button>
+          <button>▶ Server MegaCloud</button>
+        </div> <br>
+
+        <h3>Overview:</h3>
+        <p class="overview">
+          The story retells the legend of Sleeping Beauty from the 
+          villain’s perspective, revealing how betrayal turned a 
+          kind fairy into the feared Maleficent.
+        </p>
+
+        <div class="extra">
+          <p><strong>Release Date:</strong> May 30, 2014</p>
+          <p><strong>Cast:</strong> Angelina Jolie, Elle Fanning</p>
+          <p><strong>Duration:</strong> 97 minutes</p>
+          <p><strong>Country:</strong> USA</p>
+          <p><strong>Production:</strong> Walt Disney Pictures</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="movie-section">
+    <h2>You may also like</h2>
+
+    <div class="movie-grid">
+
+        <a href="../../GenrLink/Fantasy/Harry-Potter-and-the-Sorcerer’s-Stone.html">
+            <div class="movie-card">
+                <img src="../../photo/Fantasy/landscape/Harry Potter and the Sorcerer’s Stone.JPG">
+                <p>Harry Potter and the Sorcerer’s Stone</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Fantasy/Jumanji.html">
+            <div class="movie-card">
+                <img src="../../photo/Fantasy/landscape/Jumanji.WEBP">
+                <p>Jumanji</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Fantasy/Alice-in-Wonderland.html">
+            <div class="movie-card">
+                <img src="../../photo/Fantasy/landscape/Alice in Wonderland.JPG">
+                <p>Alice in Wonderland</p>
+            </div>
+        </a>
+
+
+        <a href="../../GenrLink/Fantasy/The-Chronicles-of-Narnia.html">
+            <div class="movie-card">
+                <img src="../../photo/Fantasy/landscape/The Chronicles of Narnia The Lion, the Witch and the Wardrobe.WEBP">
+                <p>The Chronicles of Narnia: The Lion, the Witch and the Wardrobe</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Fantasy/Fantastic-Beasts.html">
+            <div class="movie-card">
+                <img src="../../photo/Fantasy/landscape/Fantastic Beasts and Where to Find Them.JPG">
+                <p>Fantastic Beasts and Where to Find Them</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Fantasy/Avatar.html">
+            <div class="movie-card">
+                <img src="../../photo/Fantasy/landscape/Avatar.JPG">
+                <p>Avatar</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Fantasy/Doctor-Strange.html">
+            <div class="movie-card">
+                <img src="../../photo/Fantasy/landscape/Doctor Strange.JPG">
+                <p>Doctor Strange</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Fantasy/The-Princess-Bride.html">
+            <div class="movie-card">
+                <img src="../../photo/Fantasy/landscape/The Princess Bride.WEBP">
+                <p>The Princess Bride</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Fantasy/The-Lord-of-the-Rings.html">
+            <div class="movie-card">
+                <img src="../../photo/Fantasy/landscape/The Lord of the Rings The Fellowship of the Ring.JPG">
+                <p>The Lord of the Rings</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Fantasy/The-Hobbit.html">
+            <div class="movie-card">
+                <img src="../../photo/Fantasy/landscape/The Hobbit An Unexpected Journey.WEBP">
+                <p>The Hobbit</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Fantasy/Stardust.html">
+            <div class="movie-card">
+                <img src="../../photo/Fantasy/landscape/Stardust.WEBP">
+                <p>Stardust</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Fantasy/Shrek.html">
+            <div class="movie-card">
+                <img src="../../photo/Fantasy/landscape/Shrek.PNG">
+                <p>Shrek</p>
+            </div>
+        </a>
+
+    </div>
+</section>
+
+</body>
+</html>
