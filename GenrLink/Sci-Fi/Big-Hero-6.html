@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ACEflix - Action</title>
+  <link rel="stylesheet" href="../../css/movie.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="../../home.html">
+        <h1 class="logo">ACEflix</h1>
+      </a>
+    </div>
+
+    <div class="nav-center">
+      <input type="text" placeholder="Search movies..." class="search-bar">
+    </div>
+
+    <div class="nav-right">
+      <a href="../../login.html">Login</a>
+    </div>
+  </nav>
+
+  <!-- GENRES + TABS -->
+  <div class="container">
+    <main class="main-content">
+      <div class="top-controls">
+        <select class="genre-dropdown" onchange="goToPage(this.value)">
+          <option value="">Genres</option>
+          <option value="../../Genre/all-genre.html">ALL genres</option>
+          <option value="../../Genre/action.html">Action</option>
+          <option value="../../Genre/animation.html">Animation</option>
+          <option value="../../Genre/comedy.html">Comedy</option>
+          <option value="../../Genre/documentary.html">Documentary</option>
+          <option value="../../Genre/drama.html">Drama</option>
+          <option value="../../Genre/fantasy.html">Fantasy</option>
+          <option value="../../Genre/horror.html">Horror</option>
+          <option value="../../Genre/musical.html">Musical</option>
+          <option value="../../Genre/romance.html">Romance</option>
+          <option value="../../Genre/sci-fi.html">Sci-Fi</option>
+          <option value="../../Genre/sports.html">Sports</option>
+          <option value="../../Genre/thriller.html">Thriller</option>
+        </select>
+
+        <script>
+          function goToPage(page) {
+            window.location.href = page;
+          }
+        </script>
+
+        <div class="tabs">
+          <button>Featured</button>
+          <button>Popular</button>
+          <button>New</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- MOVIE HERO FULL WIDTH -->
+  <section class="movie-hero">
+
+    <div class="overlay">
+        <img src="../../photo/Sci-Fi/landscape/Big Hero 6.WEBP" alt="Big Hero 6">
+    </div>
+
+    <div class="movie-content">
+      <div class="poster">
+        <img src="../../photo/Sci-Fi/portrait/Big Hero 6.JPG" alt="Big Hero 6">
+      </div>
+
+      <div class="info">
+        <h1>Big Hero 6</h1>
+
+        <div class="meta">
+          <span class="tag">HD</span>
+          <span>IMDb 7.8</span>
+        </div>
+
+        <div class="buttons">
+          <button>▶ Server UpCloud</button>
+          <button>▶ Server AKCloud</button>
+          <button>▶ Server MegaCloud</button>
+        </div> <br>
+
+        <h3>Overview:</h3>
+        <p class="overview">
+            Robotics prodigy Hiro Hamada teams up with Baymax, 
+            a healthcare robot created by his brother. 
+            Together with friends, they form a group 
+            of heroes to stop a mysterious villain 
+            threatening their futuristic city.
+        </p>
+
+        <div class="extra">
+            <p><strong>Release Date:</strong> November 7, 2014</p>
+            <p><strong>Cast:</strong>Ryan Potter, Scott Adsit</p>
+            <p><strong>Duration:</strong> 102 minutes</p>
+            <p><strong>Country:</strong> USA</p>
+            <p><strong>Production:</strong> Walt Disney Animation Studios
+        </div>
+
+        </div>
+    </div>
+
+  </section>
+
+  <section class="movie-section">
+    <h2>You may also like</h2>
+
+    <div class="movie-grid">
+
+        <a href="../../GenrLink/Sci-Fi/Avengers-Endgame.html">
+            <div class="movie-card">
+                <img src="../../photo/Sci-Fi/landscape/Avengers Endgame.WEBP">
+                <p>Avengers Endgame</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Sci-Fi/Back-to-the-Future.html">
+            <div class="movie-card">
+                <img src="../../photo/Sci-Fi/landscape/Back to the Future.WEBP">
+                <p>Back to the Future</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Sci-Fi/Blade-Runner.html">
+            <div class="movie-card">
+                <img src="../../photo/Sci-Fi/landscape/Blade Runner.JPG">
+                <p>Blade Runner</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Sci-Fi/Captain-America.html">
+            <div class="movie-card">
+                <img src="../../photo/Sci-Fi/landscape/Captain America The Winter Soldier.JPG">
+                <p>Captain America</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Sci-Fi/Dune.html">
+            <div class="movie-card">
+                <img src="../../photo/Sci-Fi/landscape/Dune.WEBP">
+                <p>Dune</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Sci-Fi/Godzilla.html">
+            <div class="movie-card">
+                <img src="../../photo/Sci-Fi/landscape/Godzilla.JPG">
+                <p>Godzilla</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Sci-Fi/Interstellar.html">
+            <div class="movie-card">
+                <img src="../../photo/Sci-Fi/landscape/Interstellar.AVIF">
+                <p>Interstellar</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Sci-Fi/Metropolis.html">
+            <div class="movie-card">
+                <img src="../../photo/Sci-Fi/landscape/Metropolis.JPG">
+                <p>Metropolis</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Sci-Fi/Spider-Man.html">
+            <div class="movie-card">
+                <img src="../../photo/Sci-Fi/landscape/Spider-Man Across the Spider-Verse.WEBP">
+                <p>Spider-Man</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Sci-Fi/Star-Wars.html">
+            <div class="movie-card">
+                <img src="../../photo/Sci-Fi/landscape/Star Wars Episode IV – A New Hope.WEBP">
+                <p>Star Wars</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Sci-Fi/The-Matrix.html">
+            <div class="movie-card">
+                <img src="../../photo/Sci-Fi/landscape/The Matrix.WEBP">
+                <p>The Matrix</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Sci-Fi/WALL-E.html">
+            <div class="movie-card">
+                <img src="../../photo/Sci-Fi/landscape/WALL-E.WEBP">
+                <p>WALL-E</p>
+            </div>
+        </a>
+        
+
+    </div>
+</section>
+
+</body>
+</html>

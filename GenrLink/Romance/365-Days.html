@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ACEflix - Action</title>
+  <link rel="stylesheet" href="../../css/movie.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="../../home.html">
+        <h1 class="logo">ACEflix</h1>
+      </a>
+    </div>
+
+    <div class="nav-center">
+      <input type="text" placeholder="Search movies..." class="search-bar">
+    </div>
+
+    <div class="nav-right">
+      <a href="../../login.html">Login</a>
+    </div>
+  </nav>
+
+  <!-- GENRES + TABS -->
+  <div class="container">
+    <main class="main-content">
+      <div class="top-controls">
+        <select class="genre-dropdown" onchange="goToPage(this.value)">
+          <option value="">Genres</option>
+          <option value="../../Genre/all-genre.html">ALL genres</option>
+          <option value="../../Genre/action.html">Action</option>
+          <option value="../../Genre/animation.html">Animation</option>
+          <option value="../../Genre/comedy.html">Comedy</option>
+          <option value="../../Genre/documentary.html">Documentary</option>
+          <option value="../../Genre/drama.html">Drama</option>
+          <option value="../../Genre/fantasy.html">Fantasy</option>
+          <option value="../../Genre/horror.html">Horror</option>
+          <option value="../../Genre/musical.html">Musical</option>
+          <option value="../../Genre/romance.html">Romance</option>
+          <option value="../../Genre/sci-fi.html">Sci-Fi</option>
+          <option value="../../Genre/sports.html">Sports</option>
+          <option value="../../Genre/thriller.html">Thriller</option>
+        </select>
+
+        <script>
+          function goToPage(page) {
+            window.location.href = page;
+          }
+        </script>
+
+        <div class="tabs">
+          <button>Featured</button>
+          <button>Popular</button>
+          <button>New</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- MOVIE HERO FULL WIDTH -->
+  <section class="movie-hero">
+
+    <div class="overlay">
+        <img src="../../photo//Romance/landscape/365 Days.JPG" alt="365 Days">
+    </div>
+
+    <div class="movie-content">
+      <div class="poster">
+        <img src="../../photo/Romance/portrait/365 Days.WEBP" alt="365 Days">
+      </div>
+
+      <div class="info">
+        <h1>365 Days</h1>
+
+        <div class="meta">
+          <span class="tag">HD</span>
+          <span>IMDb 6.1</span>
+        </div>
+
+        <div class="buttons">
+          <button>▶ Server UpCloud</button>
+          <button>▶ Server AKCloud</button>
+          <button>▶ Server MegaCloud</button>
+        </div> <br>
+
+        <h3>Overview:</h3>
+        <p class="overview">
+           Laura, a sales director, is kidnapped by Massimo, a mafia boss 
+           who gives her 365 days to fall in love with him. Their 
+           relationship develops under intense and controversial 
+           circumstances, blending passion, power, and control.
+        </p>
+
+        <div class="extra">
+            <p><strong>Release Date:</strong> February 7, 2020</p>
+            <p><strong>Cast:</strong>Anna-Maria Sieklucka, Michele Morrone</p>
+            <p><strong>Duration:</strong> 114 minutes</p>
+            <p><strong>Country:</strong> Poland / Italy</p>
+            <p><strong>Production:</strong> Ekipa</p>
+        </div>
+
+        </div>
+    </div>
+
+  </section>
+
+  <section class="movie-section">
+    <h2>You may also like</h2>
+
+    <div class="movie-grid">
+
+        <a href="../../GenrLink/Romance/27-Dresses.html">
+            <div class="movie-card">
+                <img src="../../photo/Romance/landscape/27 Dresses.WEBP">
+                <p>27 Dresses</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Romance/A-Walk-to-Remember.html">
+            <div class="movie-card">
+                <img src="../../photo/Romance/landscape/A Walk to Remember.JPG">
+                <p>A Walk to Remember</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Romance/Fifty-Shades-of-Grey.html">
+            <div class="movie-card">
+                <img src="../../photo/Romance/landscape/Fifty Shades of Grey.JPG">
+                <p>Fifty Shades of Grey</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Romance/Five-Feet-Apart.html">
+            <div class="movie-card">
+                <img src="../../photo/Romance/landscape/Five Feet Apart.WEBP">
+                <p>Five Feet Apart</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Romance/He’s-Just-Not-That-Into-You.html">
+            <div class="movie-card">
+                <img src="../../photo/Romance/landscape/He’s Just Not That Into You.JPG">
+                <p>He’s Just Not That Into You</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Romance/How-to-Lose-a-Guy-in-10-Days.html">
+            <div class="movie-card">
+                <img src="../../photo/Romance/landscape/How to Lose a Guy in 10 Days.JPG">
+                <p>How to Lose a Guy in 10 Days</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Romance/It-Ends-with-Us.html">
+            <div class="movie-card">
+                <img src="../../photo/Romance/landscape/It Ends with Us.JPG">
+                <p>It Ends with Us</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Romance/La-La-Land.html">
+            <div class="movie-card">
+                <img src="../../photo/Romance/landscape/La La Land.JPG">
+                <p>La La Land</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Romance/Me-Before-You.html">
+            <div class="movie-card">
+                <img src="../../photo/Romance/landscape/Me Before You.WEBP">
+                <p>Me Before You</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Romance/Notting-Hill.html">
+            <div class="movie-card">
+                <img src="../../photo/Romance/landscape/Notting Hill.JPG">
+                <p>Notting Hill</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Romance/The-Notebook.html">
+            <div class="movie-card">
+                <img src="../../photo/Romance/landscape/The Notebook.WEBP">
+                <p>The Notebook</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Romance/The-Vow.html">
+            <div class="movie-card">
+                <img src="../../photo/Romance/landscape/The Vow.JPG">
+                <p>The Vow</p>
+            </div>
+        </a>
+        
+
+    </div>
+</section>
+
+</body>
+</html>

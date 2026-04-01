@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ACEflix - Action</title>
+  <link rel="stylesheet" href="../../css/movie.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="../../home.html">
+        <h1 class="logo">ACEflix</h1>
+      </a>
+    </div>
+
+    <div class="nav-center">
+      <input type="text" placeholder="Search movies..." class="search-bar">
+    </div>
+
+    <div class="nav-right">
+      <a href="../../login.html">Login</a>
+    </div>
+  </nav>
+
+  <!-- GENRES + TABS -->
+  <div class="container">
+    <main class="main-content">
+      <div class="top-controls">
+        <select class="genre-dropdown" onchange="goToPage(this.value)">
+          <option value="">Genres</option>
+          <option value="../../Genre/all-genre.html">ALL genres</option>
+          <option value="../../Genre/action.html">Action</option>
+          <option value="../../Genre/animation.html">Animation</option>
+          <option value="../../Genre/comedy.html">Comedy</option>
+          <option value="../../Genre/documentary.html">Documentary</option>
+          <option value="../../Genre/drama.html">Drama</option>
+          <option value="../../Genre/fantasy.html">Fantasy</option>
+          <option value="../../Genre/horror.html">Horror</option>
+          <option value="../../Genre/musical.html">Musical</option>
+          <option value="../../Genre/romance.html">Romance</option>
+          <option value="../../Genre/sci-fi.html">Sci-Fi</option>
+          <option value="../../Genre/sports.html">Sports</option>
+          <option value="../../Genre/thriller.html">Thriller</option>
+        </select>
+
+        <script>
+          function goToPage(page) {
+            window.location.href = page;
+          }
+        </script>
+
+        <div class="tabs">
+          <button>Featured</button>
+          <button>Popular</button>
+          <button>New</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- MOVIE HERO FULL WIDTH -->
+  <section class="movie-hero">
+
+    <div class="overlay">
+        <img src="../../photo/Musical/LANDSCAPE/Moana.WEBP" alt="Moana">
+    </div>
+
+    <div class="movie-content">
+      <div class="poster">
+        <img src="../../photo/Musical/portrait/Moana.JPG" alt="Moana">
+      </div>
+
+      <div class="info">
+        <h1>Moana</h1>
+
+        <div class="meta">
+          <span class="tag">HD</span>
+          <span>IMDb 7.6</span>
+        </div>
+
+        <div class="buttons">
+          <button>▶ Server UpCloud</button>
+          <button>▶ Server AKCloud</button>
+          <button>▶ Server MegaCloud</button>
+        </div> <br>
+
+        <h3>Overview:</h3>
+        <p class="overview">
+           A Polynesian teenager sails across the ocean to save 
+           her island. The film features catchy songs like 
+           “How Far I’ll Go” and a mix of adventure, 
+           humor, and culture.
+        </p>
+
+        <div class="extra">
+            <p><strong>Release Date:</strong> November 23, 2016</p>
+            <p><strong>Cast:</strong>Auli'i Cravalho, Dwayne Johnson, Rachel House</p>
+            <p><strong>Duration:</strong> 107 minutes</p>
+            <p><strong>Country:</strong> USA</p>
+            <p><strong>Production:</strong> Walt Disney Animation Studios</p>
+        </div>
+
+        </div>
+    </div>
+
+  </section>
+
+  <section class="movie-section">
+    <h2>You may also like</h2>
+
+    <div class="movie-grid">
+
+        <a href="../../GenrLink/Musical/Chicago.html">
+            <div class="movie-card">
+                <img src="../../photo/Musical/landscape/Chicago.JPG">
+                <p>Chicago</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Musical/Dear-Evan-Hansen.html">
+            <div class="movie-card">
+                <img src="../../photo/Musical/landscape/Dear Evan Hansen.JPG">
+                <p>Dear Evan Hansen</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Musical/Hairspray.html">
+            <div class="movie-card">
+                <img src="../../photo/Musical/landscape/Hairspray.JPG">
+                <p>Hairspray</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Musical/Frozen.html">
+            <div class="movie-card">
+                <img src="../../photo/Musical/LANDSCAPE/Frozen.JPG">
+                <p>Frozen</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Musical/Hamilton.html">
+            <div class="movie-card">
+                <img src="../../photo/Musical/landscape/Hamilton.JPG">
+                <p>Hamilton</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Musical/Les-Misérables.html">
+            <div class="movie-card">
+                <img src="../../photo/Musical/landscape/Les Misérables.JPG">
+                <p>Les Misérables</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Musical/Little-Shop-of-Horrors.html">
+            <div class="movie-card">
+                <img src="../../photo/Musical/landscape/Little Shop of Horrors.JPG">
+                <p>Little Shop of Horrors</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Musical/Singin-in-the-Rain.html">
+            <div class="movie-card">
+                <img src="../../photo/Musical/landscape/Singin’ in the Rain.JPG">
+                <p>Singin’ in the Rain</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Musical/Mamma-Mia.html">
+            <div class="movie-card">
+                <img src="../../photo/Musical/landscape/Mamma Mia!.JPG">
+                <p>Mamma Mia!</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Musical/Newsies.html">
+            <div class="movie-card">
+                <img src="../../photo/Musical/landscape/Newsies.WEBP">
+                <p>Newsies</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Musical/Pitch-Perfect.html">
+            <div class="movie-card">
+                <img src="../../photo/Musical/landscape/Pitch Perfect.JPG">
+                <p>Pitch Perfect</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Musical/Whiplash.html">
+            <div class="movie-card">
+                <img src="../../photo/Musical/landscape/Whiplash.WEBP">
+                <p>Whiplash</p>
+            </div>
+        </a>
+        
+
+    </div>
+</section>
+
+</body>
+</html>
