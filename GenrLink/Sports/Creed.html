@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ACEflix - Action</title>
+  <link rel="stylesheet" href="../../css/movie.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="../../home.html">
+        <h1 class="logo">ACEflix</h1>
+      </a>
+    </div>
+
+    <div class="nav-center">
+      <input type="text" placeholder="Search movies..." class="search-bar">
+    </div>
+
+    <div class="nav-right">
+      <a href="../../login.html">Login</a>
+    </div>
+  </nav>
+
+  <!-- GENRES + TABS -->
+  <div class="container">
+    <main class="main-content">
+      <div class="top-controls">
+        <select class="genre-dropdown" onchange="goToPage(this.value)">
+          <option value="">Genres</option>
+          <option value="../../Genre/all-genre.html">ALL genres</option>
+          <option value="../../Genre/action.html">Action</option>
+          <option value="../../Genre/animation.html">Animation</option>
+          <option value="../../Genre/comedy.html">Comedy</option>
+          <option value="../../Genre/documentary.html">Documentary</option>
+          <option value="../../Genre/drama.html">Drama</option>
+          <option value="../../Genre/fantasy.html">Fantasy</option>
+          <option value="../../Genre/horror.html">Horror</option>
+          <option value="../../Genre/musical.html">Musical</option>
+          <option value="../../Genre/romance.html">Romance</option>
+          <option value="../../Genre/sci-fi.html">Sci-Fi</option>
+          <option value="../../Genre/sports.html">Sports</option>
+          <option value="../../Genre/thriller.html">Thriller</option>
+        </select>
+
+        <script>
+          function goToPage(page) {
+            window.location.href = page;
+          }
+        </script>
+
+        <div class="tabs">
+          <button>Featured</button>
+          <button>Popular</button>
+          <button>New</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- MOVIE HERO FULL WIDTH -->
+  <section class="movie-hero">
+
+    <div class="overlay">
+        <img src="../../photo/Sports/landscape/Creed.JPG" alt="Creed">
+    </div>
+
+    <div class="movie-content">
+      <div class="poster">
+        <img src="../../photo/Sports/portrait/Creed.JPG" alt="Creed">
+      </div>
+
+      <div class="info">
+        <h1>Creed</h1>
+
+        <div class="meta">
+          <span class="tag">HD</span>
+          <span>IMDb 8.7</span>
+        </div>
+
+        <div class="buttons">
+          <button>▶ Server UpCloud</button>
+          <button>▶ Server AKCloud</button>
+          <button>▶ Server MegaCloud</button>
+        </div> <br>
+
+        <h3>Overview:</h3>
+        <p class="overview">
+           Adonis Johnson, the son of famous boxer Apollo Creed, seeks 
+           training from retired champion Rocky Balboa. Together they 
+           prepare for a major boxing match while confronting personal 
+           struggles and legacy.
+        </p>
+
+        <div class="extra">
+            <p><strong>Release Date:</strong> November 25, 2015</p>
+            <p><strong>Cast:</strong> Michael B. Jordan, Sylvester Stallone</p>
+            <p><strong>Duration:</strong> 133 minutes</p>
+            <p><strong>Country:</strong> USA</p>
+            <p><strong>Production:</strong> Metro-Goldwyn-Mayer
+        </div>
+
+        </div>
+    </div>
+
+  </section>
+
+  <section class="movie-section">
+    <h2>You may also like</h2>
+
+    <div class="movie-grid">
+
+        <a href="../../GenrLink/Sports/A-League-of-Their-Own.html">
+            <div class="movie-card">
+                <img src="../../photo/Sports/portrait/A League of Their Own.JPG">
+                <p>A League of Their Own</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Sports/The-Blind-Side.html">
+            <div class="movie-card">
+                <img src="../../photo/Sports/portrait/The Blind Side.JPG">
+                <p>The Blind Side</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Sports/Bend-It-Like-Beckham.html">
+            <div class="movie-card">
+                <img src="../../photo/Sports/portrait/Bend It Like Beckham.JPG">
+                <p>Bend It Like Beckham</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Sports/Coach-Carter.html">
+            <div class="movie-card">
+                <img src="../../photo/Sports/portrait/Coach Carter.JPG">
+                <p>Coach Carter</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Sports/Ford-v-Ferrari.html">
+            <div class="movie-card">
+                <img src="../../photo/Sports/portrait/Ford v Ferrari.JPG">
+                <p>Ford v Ferrari</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Sports/Goal-The-Dream-Begins.html">
+            <div class="movie-card">
+                <img src="../../photo/Sports/portrait/Goal! The Dream Begins.JPG">
+                <p>Goal! The Dream Begins</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Sports/Hoosiers.html">
+            <div class="movie-card">
+                <img src="../../photo/Sports/portrait/Hoosiers.JPG">
+                <p>Hoosiers</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Sports/Invictus.html">
+            <div class="movie-card">
+                <img src="../../photo/Sports/portrait/Invictus.JPG">
+                <p>Invictus</p>
+            </div>
+        </a>
+
+       <a href="../../GenrLink/Sports/Moneyball.html">
+            <div class="movie-card">
+                <img src="../../photo/Sports/portrait/Moneyball.JPG">
+                <p>Moneyball</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Sports/Remember-the-Titans.html">
+            <div class="movie-card">
+                <img src="../../photo/Sports/portrait/Remember the Titans.JPG">
+                <p>Remember the Titans</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Sports/Rocky.html">
+            <div class="movie-card">
+                <img src="../../photo/Sports/portrait/Rocky.PNG">
+                <p>Rocky</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Sports/Space-Jam.html">
+            <div class="movie-card">
+                <img src="../../photo/Sports/portrait/Space Jam.JPG">
+                <p>Space Jam</p>
+            </div>
+        </a>
+
+
+    </div>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ACEflix - Action</title>
+  <link rel="stylesheet" href="../../css/movie.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="../../home.html">
+        <h1 class="logo">ACEflix</h1>
+      </a>
+    </div>
+
+    <div class="nav-center">
+      <input type="text" placeholder="Search movies..." class="search-bar">
+    </div>
+
+    <div class="nav-right">
+      <a href="../../login.html">Login</a>
+    </div>
+  </nav>
+
+  <!-- GENRES + TABS -->
+  <div class="container">
+    <main class="main-content">
+      <div class="top-controls">
+        <select class="genre-dropdown" onchange="goToPage(this.value)">
+          <option value="">Genres</option>
+          <option value="../../Genre/all-genre.html">ALL genres</option>
+          <option value="../../Genre/action.html">Action</option>
+          <option value="../../Genre/animation.html">Animation</option>
+          <option value="../../Genre/comedy.html">Comedy</option>
+          <option value="../../Genre/documentary.html">Documentary</option>
+          <option value="../../Genre/drama.html">Drama</option>
+          <option value="../../Genre/fantasy.html">Fantasy</option>
+          <option value="../../Genre/horror.html">Horror</option>
+          <option value="../../Genre/musical.html">Musical</option>
+          <option value="../../Genre/romance.html">Romance</option>
+          <option value="../../Genre/sci-fi.html">Sci-Fi</option>
+          <option value="../../Genre/sports.html">Sports</option>
+          <option value="../../Genre/thriller.html">Thriller</option>
+        </select>
+
+        <script>
+          function goToPage(page) {
+            window.location.href = page;
+          }
+        </script>
+
+        <div class="tabs">
+          <button>Featured</button>
+          <button>Popular</button>
+          <button>New</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- MOVIE HERO FULL WIDTH -->
+  <section class="movie-hero">
+
+    <div class="overlay">
+        <img src="../../photo/Thriller/landscape/Nightcrawler.JPG" alt="Nightcrawler">
+    </div>
+
+    <div class="movie-content">
+      <div class="poster">
+        <img src="../../photo/Thriller/portrait/Nightcrawler.JPG" alt="Nightcrawler">
+      </div>
+
+      <div class="info">
+        <h1>Nightcrawler</h1>
+
+        <div class="meta">
+          <span class="tag">HD</span>
+          <span>IMDb 8.7</span>
+        </div>
+
+        <div class="buttons">
+          <button>▶ Server UpCloud</button>
+          <button>▶ Server AKCloud</button>
+          <button>▶ Server MegaCloud</button>
+        </div> <br>
+
+        <h3>Overview:</h3>
+        <p class="overview">
+           Lou Bloom discovers the world of freelance crime journalism in Los Angeles, 
+           filming accidents and crimes to sell to news stations. His ambition grows 
+           dangerously obsessive, pushing him to manipulate events to capture more 
+           shocking footage.
+        </p>
+
+        <div class="extra">
+            <p><strong>Release Date:</strong> October 31, 2014</p>
+            <p><strong>Cast:</strong> Jake Gyllenhaal, Rene Russo</p>
+            <p><strong>Duration:</strong> 117 minutes</p>
+            <p><strong>Country:</strong> USA</p>
+            <p><strong>Production:</strong> Bold Films
+        </div>
+
+        </div>
+    </div>
+
+  </section>
+
+  <section class="movie-section">
+    <h2>You may also like</h2>
+
+    <div class="movie-grid">
+
+        <a href="../../GenrLink/Thriller/Inception.HTML">
+            <div class="movie-card">
+                <img src="../../photo/Thriller/landscape/Inception.WEBP">
+                <p>Inception</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Thriller/Jaws.HTML">
+            <div class="movie-card">
+                <img src="../../photo/Thriller/landscape/Jaws.JPG">
+                <p>Jaws</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Thriller/Joker.HTML">
+            <div class="movie-card">
+                <img src="../../photo/Thriller/landscape/Joker.JPG">
+                <p>Joker</p>
+            </div>
+        </a>
+
+
+        <a href="../../GenrLink/Thriller/Jurassic-World-Rebirth.HTML">
+            <div class="movie-card">
+                <img src="../../photo/Thriller/landscape/Jurassic World Rebirth.WEBP">
+                <p>Jurassic World Rebirth</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Thriller/Lucy.HTML">
+            <div class="movie-card">
+                <img src="../../photo/Thriller/landscape/Lucy.JPG">
+                <p>Lucy</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Thriller/The-Maze-Runner.HTML">
+            <div class="movie-card">
+                <img src="../../photo/Thriller/landscape/The Maze Runner.JPG">
+                <p>The Maze Runner</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Thriller/Ballerina.HTML">
+            <div class="movie-card">
+                <img src="../../photo/Thriller/landscape/Ballerina.JPG">
+                <p>Ballerina</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Thriller/Mission-Impossible.HTML">
+            <div class="movie-card">
+                <img src="../../photo/Thriller/landscape/Mission Impossible.JPG">
+                <p>Mission: Impossible</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Thriller/Mr.&Mrs.-Smith.HTML">
+            <div class="movie-card">
+                <img src="../../photo/Thriller/landscape/Mr. & Mrs. Smith.WEBP">
+                <p>Mr. & Mrs. Smith</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Thriller/Parasite.HTML">
+            <div class="movie-card">
+                <img src="../../photo/Thriller/landscape/Parasite.JPG">
+                <p>Parasite</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Thriller/Tenet.HTML">
+            <div class="movie-card">
+                <img src="../../photo/Thriller/landscape/Tenet.JPG">
+                <p>Tenet</p>
+            </div>
+        </a>
+
+        <a href="../../GenrLink/Thriller/The-Housemaid.HTML">
+            <div class="movie-card">
+                <img src="../../photo/Thriller/landscape/The Housemaid.WEBP">
+                <p>Tenet</p>
+            </div>
+        </a>
+
+
+    </div>
+</section>
+
+</body>
+</html>
