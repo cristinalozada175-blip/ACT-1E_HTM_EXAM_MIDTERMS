@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ACEflix - Action</title>
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="../home.html">
+        <h1 class="logo">ACEflix</h1>
+      </a>
+    </div>
+
+    <div class="nav-center">
+      <input type="text" placeholder="Search movies...">
+    </div>
+
+    <div class="nav-right">
+      <a href="../login.html">Login</a>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <div class="container">
+
+    <main class="main-content">
+
+      <!-- GENRES + TABS -->
+      <div class="top-controls">
+        <select class="genre-dropdown" onchange="goToPage(this.value)">
+          <option value="">Genres</option>
+          <option value="action.html">Action</option>
+          <option value="animation.html">Animation</option>
+          <option value="comedy.html">Comedy</option>
+          <option value="documentary.html">Documentary</option>
+          <option value="drama.html">Drama</option>
+          <option value="fantasy.html">Fantasy</option>
+          <option value="horror.html">Horror</option>
+          <option value="musical.html">Musical</option>
+          <option value="romance.html">Romance</option>
+          <option value="sci-fi.html">Sci-Fi</option>
+          <option value="sports.html">Sports</option>
+          <option value="thriller.html">Thriller</option>
+        </select>
+
+        <script>
+          function goToPage(page) {
+            window.location.href = page;
+          }
+        </script>
+
+        <div class="tabs">
+          <button>Featured</button>
+          <button>Popular</button>
+          <button>New</button>
+        </div>
+
+      </div>
+
+      <!-- MOVIE AREA -->
+      <div class="movie-row">
+
+  <!-- Row 1 -->
+  <a href="../GenrLink/Sports/A-League-of-Their-Own.html">
+    <div class="movie-card"><img src="../photo/Sports/landscape/A League of Their Own.JPG">
+    <p>A League of Their Own</p></div>
+  </a>
+
+  <a href="../GenrLink/Sports/Bend-It-Like-Beckham.html">
+    <div class="movie-card"><img src="../photo/Sports/landscape/Bend It Like Beckham.JPG">
+    <p>Bend It Like Beckham</p></div>
+  </a>
+
+  <a href="../GenrLink/Sports/Coach-Carter.html">
+    <div class="movie-card"><img src="../photo/Sports/landscape/Coach Carter.WEBP">
+    <p>Coach Carter</p></div>
+  </a>
+
+
+  <!-- Row 2 -->
+  <a href="../GenrLink/Sports/Creed.html">
+    <div class="movie-card"><img src="../photo/Sports/landscape/Creed.JPG">
+    <p>Creed</p></div>
+  </a>
+
+  <a href="../GenrLink/Sports/Ford-v-Ferrari.html">
+    <div class="movie-card"><img src="../photo/Sports/landscape/Ford v Ferrari.JPG">
+    <p>Ford v Ferrari</p></div>
+  </a>
+
+  <a href="../GenrLink/Sports/Goal-The-Dream-Begins.html">
+    <div class="movie-card"><img src="../photo/Sports/landscape/Goal! The Dream Begins.JPG">
+    <p>Goal! The Dream Begins</p></div>
+  </a>
+
+  <!-- Row 3 -->
+  <a href="../GenrLink/Sports/Hoosiers.html">
+    <div class="movie-card"><img src="../photo/Sports/landscape/Hoosiers.JPG">
+    <p>Hoosiers</p></div>
+  </a>
+
+  <a href="../GenrLink/Sports/Invictus.html">
+    <div class="movie-card"><img src="../photo/Sports/landscape/Invictus.JPG">
+    <p>Invictus</p></div>
+  </a>
+
+  <a href="../GenrLink/Sports/Moneyball.html">
+    <div class="movie-card"><img src="../photo/Sports/landscape/Moneyball.JPG">
+    <p>Moneyball</p></div>
+  </a>
+
+  <!-- Row 4 -->
+  <a href="../GenrLink/Sports/Remember-the-Titans.html">
+    <div class="movie-card"><img src="../photo/Sports/landscape/Remember the Titans.WEBP">
+    <p>Remember the Titans</p></div>
+  </a>
+
+  <a href="../GenrLink/Sports/Rocky.html">
+    <div class="movie-card"><img src="../photo/Sports/landscape/Rocky.AVIF">
+    <p>Rocky</p></div>
+  </a>
+
+  <a href="../GenrLink/Sports/Space-Jam.html">
+    <div class="movie-card"><img src="../photo/Sports/landscape/Space Jam.WEBP">
+    <p>Space Jam</p></div>
+  </a>
+
+  <!-- Row 5 -->
+  <a href="../GenrLink/Sports/The-Blind-Side.html">
+    <div class="movie-card"><img src="../photo/Sports/landscape/The Blind Side.AVIF">
+    <p>The Blind Side</p></div>
+  </a>
+
+  <a href="../GenrLink/Sports/The-Karate-Kid.html">
+    <div class="movie-card"><img src="../photo/Sports/landscape/The Karate Kid.AVIF">
+    <p>The Karate Kid</p></div>
+  </a>
+
+  <a href="../GenrLink/Sports/Warrior.html">
+    <div class="movie-card"><img src="../photo/Sports/landscape/Warrior.JPG">
+      <p>Warrior</p></div>
+  </a>
+
+</div>
+       
+       
+
+       
+
+    </div>
+
+    </main>
+
+  </div>
+
+</body>
+</html>

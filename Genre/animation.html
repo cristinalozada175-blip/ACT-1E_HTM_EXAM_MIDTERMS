@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ACEflix - Action</title>
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="../home.html">
+        <h1 class="logo">ACEflix</h1>
+      </a>
+    </div>
+
+    <div class="nav-center">
+      <input type="text" placeholder="Search movies...">
+    </div>
+
+    <div class="nav-right">
+      <a href="../login.html">Login</a>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <div class="container">
+
+    <main class="main-content">
+
+      <!-- GENRES + TABS -->
+      <div class="top-controls">
+        <select class="genre-dropdown" onchange="goToPage(this.value)">
+          <option value="">Genres</option>
+          <option value="action.html">Action</option>
+          <option value="animation.html">Animation</option>
+          <option value="comedy.html">Comedy</option>
+          <option value="documentary.html">Documentary</option>
+          <option value="drama.html">Drama</option>
+          <option value="fantasy.html">Fantasy</option>
+          <option value="horror.html">Horror</option>
+          <option value="musical.html">Musical</option>
+          <option value="romance.html">Romance</option>
+          <option value="sci-fi.html">Sci-Fi</option>
+          <option value="sports.html">Sports</option>
+          <option value="thriller.html">Thriller</option>
+        </select>
+
+        <script>
+          function goToPage(page) {
+            window.location.href = page;
+          }
+        </script>
+
+        <div class="tabs">
+          <button>Featured</button>
+          <button>Popular</button>
+          <button>New</button>
+        </div>
+
+      </div>
+
+      <!-- MOVIE AREA -->
+      <div class="movie-row">
+
+  <!-- Row 1 -->
+  <a href="../GenrLink/Animation/Attack-on-Titan.html">
+      <div class="movie-card"><img src="../photo/Animation/landscape/Attack on Titan.JPG">
+        <p>Attack on Titan</p></div>
+  </a>
+  <a href="../GenrLink/Animation/Black-Clover.html">
+      <div class="movie-card"><img src="../photo/Animation/landscape/Black Clover.JPG">
+        <p>Black Clover</p></div>
+  </a>
+  <a href="../GenrLink/Animation/Bungo-Stray-Dogs.html">
+      <div class="movie-card"><img src="../photo/Animation/landscape/Bungo Stray Dogs.JPG">
+        <p>Bungo Stray Dogs</p></div>
+  </a>
+
+  <!-- Row 2 -->
+  <a href="../GenrLink/Animation/Delicious-in-Dungeon.html">
+      <div class="movie-card"><img src="../photo/Animation/landscape/Delicious in Dungeon.WEBP">
+        <p>Delicious in Dungeon</p></div>
+  </a>
+  <a href="../GenrLink/Animation/Detective-Billionaire-Balance-Unlimited.html">
+      <div class="movie-card"><img src="../photo/Animation/landscape/Detective Billionaire Balance Unlimited.JPG">
+        <p>Detective Billionaire: Balance Unlimited</p></div>
+  </a>
+  <a href="../GenrLink/Animation/Demon Slayer-Kimetsu-no-Yaiba.html">
+      <div class="movie-card"><img src="../photo/Animation/landscape/Demon Slayer Kimetsu no Yaiba.JPG">
+        <p>Demon Slayer: Kimetsu no Yaiba</p></div>
+  </a>
+
+  <!-- Row 3 -->
+  <a href="../GenrLink/Animation/Doraemon.html">
+      <div class="movie-card"><img src="../photo/Animation/landscape/Doraemon.JPG">
+        <p>Doraemon</p></div>
+  </a>
+  <a href="../GenrLink/Animation/Haikyuu.html">
+      <div class="movie-card"><img src="../photo/Animation/landscape/Haikyuu!!.jfif">
+        <p>Haikyuu!!</p></div>
+  </a>
+  <a href="../GenrLink/Animation/Hunter-×-Hunter.html">
+      <div class="movie-card"><img src="../photo/Animation/landscape/Hunter × Hunter.JPG">
+        <p>Hunter × Hunter</p></div>
+  </a>
+
+  <!-- Row 4 -->
+  <a href="../GenrLink/Animation/Kuroko’s-Basketball.html">
+      <div class="movie-card"><img src="../photo/Animation/landscape/Kuroko’s Basketball.JPG">
+        <p>Kuroko’s Basketball</p></div>
+  </a>
+  <a href="../GenrLink/Animation/One Piece-The Movie.html">
+      <div class="movie-card"><img src="../photo/Animation/landscape/One-Piece-The-Movie.jfif">
+        <p>One Piece: The Movie</p></div>
+  </a>
+  <a href="../GenrLink/Animation/One-Punch-Man.html">
+      <div class="movie-card"><img src="../photo/Animation/landscape/One-Punch Man.JPG">
+        <p>One-Punch Man</p></div>
+  </a>
+
+  <!-- Row 5 -->
+  <a href="../GenrLink/Animation/Sailor-Moon.html">
+      <div class="movie-card"><img src="../photo/Animation/landscape/sailormoon.jpg">
+        <p>Sailor Moon</p></div>
+  </a>
+  <a href="../GenrLink/Animation/That-Time-I-Got-Reincarnated-as-a-Slime.html">
+      <div class="movie-card"><img src="../photo/Animation/landscape/That Time I Got Reincarnated as a Slime.JPG">
+        <p>That Time I Got Reincarnated as a Slime</p></div>
+  </a>
+  <a href="../GenrLink/Animation/Weathering-with-You.html">
+      <div class="movie-card"><img src="../photo/Animation/landscape/Weathering with You.JPG">
+        <p>Weathering with You</p></div>
+  </a>
+
+</div>
+       
+       
+
+       
+
+    </div>
+
+    </main>
+
+  </div>
+
+</body>
+</html>

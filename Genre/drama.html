@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ACEflix - Action</title>
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="../home.html">
+        <h1 class="logo">ACEflix</h1>
+      </a>
+    </div>
+
+    <div class="nav-center">
+      <input type="text" placeholder="Search movies...">
+    </div>
+
+    <div class="nav-right">
+      <a href="../login.html">Login</a>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <div class="container">
+
+    <main class="main-content">
+
+      <!-- GENRES + TABS -->
+      <div class="top-controls">
+        <select class="genre-dropdown" onchange="goToPage(this.value)">
+          <option value="">Genres</option>
+          <option value="action.html">Action</option>
+          <option value="animation.html">Animation</option>
+          <option value="comedy.html">Comedy</option>
+          <option value="documentary.html">Documentary</option>
+          <option value="drama.html">Drama</option>
+          <option value="fantasy.html">Fantasy</option>
+          <option value="horror.html">Horror</option>
+          <option value="musical.html">Musical</option>
+          <option value="romance.html">Romance</option>
+          <option value="sci-fi.html">Sci-Fi</option>
+          <option value="sports.html">Sports</option>
+          <option value="thriller.html">Thriller</option>
+        </select>
+
+        <script>
+          function goToPage(page) {
+            window.location.href = page;
+          }
+        </script>
+
+        <div class="tabs">
+          <button>Featured</button>
+          <button>Popular</button>
+          <button>New</button>
+        </div>
+
+      </div>
+
+      <!-- MOVIE AREA -->
+      <div class="movie-row">
+
+  <!-- Row 1 -->
+  <a href="../GenrLink/Drama/12-Years-a-Slave.html">
+    <div class="movie-card"><img src="../photo/Drama/landscape/12 Years a Slave.JPG">
+    <p>12 Years a Slave</p></div>
+  </a>
+
+  <a href="../GenrLink/Drama/A-Beautiful-Mind.html">
+    <div class="movie-card"><img src="../photo/Drama/landscape/A Beautiful Mind.JPG">
+    <p>A Beautiful Mind</p></div>
+  </a>
+
+  <a href="../GenrLink/Drama/Dead-Poets-Society.html">
+    <div class="movie-card"><img src="../photo/Drama/landscape/Dead Poets Society.JPG">
+      <p>Dead Poets Society</p></div>
+  </a>
+
+  <!-- Row 2 -->
+  <a href="../GenrLink/Drama/The-Fault-in-Our-Stars.html">
+    <div class="movie-card"><img src="../photo/Drama/landscape/The Fault in Our Stars.JPG">
+    <p>The Fault in Our Stars</p></div>
+  </a>
+  <a href="../GenrLink/Drama/Forrest-Gump.html">
+    <div class="movie-card"><img src="../photo/Drama/landscape/Forrest Gump.JPG">
+    <p>Forrest Gump</p></div>
+  </a>
+  <a href="../GenrLink/Drama/The-Green-Mile.html">
+    <div class="movie-card"><img src="../photo/Drama/landscape/The Green Mile.JPG">
+    <p>The Green Mile</p></div>
+  </a>
+
+  <!-- Row 3 -->
+  <a href="../GenrLink/Drama/Good-Will-Hunting.html">
+    <div class="movie-card"><img src="../photo/Drama/landscape/Good Will Hunting.JPG">
+    <p>Good Will Hunting</p></div>
+  </a>
+  <a href="../GenrLink/Drama/Little-Women.html">
+    <div class="movie-card"><img src="../photo/Drama/landscape/Little Women.JPG">
+    <p>Little Women</p></div>
+  </a>
+  <a href="../GenrLink/Drama/Manchester-by-the-Sea.html">
+    <div class="movie-card"><img src="../photo/Drama/landscape/Manchester by the Sea.JPG">
+    <p>Manchester by the Sea</p></div>
+  </a>
+
+  <!-- Row 4 -->
+  <a href="../GenrLink/Drama/Marriage-Story.html">
+    <div class="movie-card"><img src="../photo/Drama/landscape/Marriage Story.JPG">
+    <p>Marriage Story</p></div>
+  </a>
+  <a href="../GenrLink/Drama/Moonlight.html">
+    <div class="movie-card"><img src="../photo/Drama/landscape/Moonlight.JPG">
+    <p>Moonlight</p></div>
+  </a>
+  <a href="../GenrLink/Drama/The-Pursuit-of-Happyness.html">
+    <div class="movie-card"><img src="../photo/Drama/landscape/The Pursuit of Happyness.JPG">
+    <p>The Pursuit of Happyness</p></div>
+  </a>
+
+  <!-- Row 5 -->
+  <a href="../GenrLink/Drama/The-Shawshank-Redemption.html">
+    <div class="movie-card"><img src="../photo/Drama/landscape/The Shawshank Redemption.JPG">
+    <p>The Shawshank Redemption</p></div>
+  </a>
+  <a href="../GenrLink/Drama/Titanic.html">
+    <div class="movie-card"><img src="../photo/Drama/landscape/Titanic.JPG">
+    <p>Titanic</p></div>
+  </a>
+  <a href="../GenrLink/Drama/The-Whale.html">
+    <div class="movie-card"><img src="../photo/Drama/landscape/The Whale.JPG">
+    <p>The Whale</p></div>
+  </a>
+
+</div>
+       
+       
+
+       
+
+    </div>
+
+    </main>
+
+  </div>
+
+</body>
+</html>

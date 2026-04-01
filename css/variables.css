@@ -1,0 +1,23 @@
+:root{
+    /*Main Colors*/
+    --lightPink-color: #ff038f;
+    --SPink-color: #a3006b;
+    --navbar-color: #5e0034;
+    --DFPink-color: #2b0018;
+    --background-color: #13000a;
+
+    /*text colors*/
+    --text-color: #ffffff;
+    --text-secondary: #d1a3b3;
+    --text-muted: #a06a80;
+
+    /*sa card*/
+    --card-color: #1a000f;
+    --card-hover: #2a0018;
+
+    --accent-color: #00E5FF;
+
+    /*pang sa mga buttons*/
+    --hover-color: #ff4da6;
+    --active-color: #ff80bf;
+}

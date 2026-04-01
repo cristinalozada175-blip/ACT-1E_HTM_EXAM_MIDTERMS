@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ACEflix - Action</title>
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="../home.html">
+        <h1 class="logo">ACEflix</h1>
+      </a>
+    </div>
+
+    <div class="nav-center">
+      <input type="text" placeholder="Search movies...">
+    </div>
+
+    <div class="nav-right">
+      <a href="../login.html">Login</a>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <div class="container">
+
+    <main class="main-content">
+
+      <!-- GENRES + TABS -->
+      <div class="top-controls">
+        <select class="genre-dropdown" onchange="goToPage(this.value)">
+          <option value="">Genres</option>
+          <option value="action.html">Action</option>
+          <option value="animation.html">Animation</option>
+          <option value="comedy.html">Comedy</option>
+          <option value="documentary.html">Documentary</option>
+          <option value="drama.html">Drama</option>
+          <option value="fantasy.html">Fantasy</option>
+          <option value="horror.html">Horror</option>
+          <option value="musical.html">Musical</option>
+          <option value="romance.html">Romance</option>
+          <option value="sci-fi.html">Sci-Fi</option>
+          <option value="sports.html">Sports</option>
+          <option value="thriller.html">Thriller</option>
+        </select>
+
+        <script>
+          function goToPage(page) {
+            window.location.href = page;
+          }
+        </script>
+
+        <div class="tabs">
+          <button>Featured</button>
+          <button>Popular</button>
+          <button>New</button>
+        </div>
+
+      </div>
+
+      <!-- MOVIE AREA -->
+      <div class="movie-row">
+
+  <!-- Row 1 -->
+  <a href="../GenrLink/Documentary/A13th.html">
+    <div class="movie-card"><img src="../photo/Documentary/landscape/13th.JPG">
+    <p>A13th</p></div>
+  </a>
+
+  <a href="../GenrLink/Documentary/American-Factory.html">
+    <div class="movie-card"><img src="../photo/Documentary/landscape/American Factory.JPG">
+    <p>American Factory</p></div>
+  </a>
+
+  <a href="../GenrLink/Documentary/Blackfish.html">
+    <div class="movie-card"><img src="../photo/Documentary/landscape/Blackfish.JPG">
+    <p>Blackfish</p></div>
+  </a>
+
+  <!-- Row 2 -->
+  <a href="../GenrLink/Documentary/Bowling-for-Columbine.html">
+    <div class="movie-card"><img src="../photo/Documentary/landscape/Bowling for Columbine.JPG">
+    <p>Bowling for Columbine</p></div>
+  </a>
+
+  <a href="../GenrLink/Documentary/Citizenfour.html">
+    <div class="movie-card"><img src="../photo/Documentary/landscape/Citizenfour.WEBP">
+      <p>Citizenfour</p></div>
+  </a>
+
+  <a href="../GenrLink/Documentary/Earthlings.html">
+    <div class="movie-card"><img src="../photo/Documentary/landscape/Earthlings.AVIF">
+      <p>Earthlings</p></div>
+  </a>
+
+  <!-- Row 3 -->
+  <a href="../GenrLink/Documentary/Free-Solo.html">
+    <div class="movie-card"><img src="../photo/Documentary/landscape/Free Solo.JPG">
+      <p>Free Solo</p></div>
+  </a>
+
+  <a href="../GenrLink/Documentary/Honeyland.html">
+    <div class="movie-card"><img src="../photo/Documentary/landscape/Honeyland.JPG">
+      <p>Honeyland</p></div>
+  </a>
+  
+  <a href="../GenrLink/Documentary/Icarus.html">
+    <div class="movie-card"><img src="../photo/Documentary/landscape/Icarus.JPG">
+      <p>Icarus</p></div>
+  </a>
+
+  <!-- Row 4 -->
+  <a href="../GenrLink/Documentary/Man-on-Wire.html">
+    <div class="movie-card"><img src="../photo/Documentary/landscape/Man on Wire.JPG"
+      ><p>Man on Wire</p></div>
+  </a> 
+
+  <a href="../GenrLink/Documentary/March-of-the-Penguins.html">
+    <div class="movie-card"><img src="../photo/Documentary/landscape/March of the Penguins.JPG">
+      <p>March of the Penguins</p></div>
+  </a>
+
+  <a href="../GenrLink/Documentary/Super-Size-Me.html">
+    <div class="movie-card"><img src="../photo/Documentary/landscape/Super Size Me.JPG">
+      <p>Super Size Me</p></div>
+  </a>
+
+  <!-- Row 5 -->
+  <a href="../GenrLink/Documentary/The-Social-Dilemma.html">
+    <div class="movie-card"><img src="../photo/Documentary/landscape/The Social Dilemma.WEBP">
+      <p>The Social Dilemma</p></div>
+  </a>
+
+  <a href="../GenrLink/Documentary/Three-Identical-Strangers.html">
+    <div class="movie-card"><img src="../photo/Documentary/landscape/Three Identical Strangers.JPG">
+      <p>Three Identical Strangers</p></div>
+  </a>
+
+  <a href="../GenrLink/Documentary/Won’t-You-Be-My-Neighbor.html">
+    <div class="movie-card"><img src="../photo/Documentary/landscape/Won’t You Be My Neighbor.JPG">
+      <p>Won’t You Be My Neighbor?</p></div>
+  </a>
+
+</div>
+       
+       
+
+       
+
+    </div>
+
+    </main>
+
+  </div>
+
+</body>
+</html>

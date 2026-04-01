@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ACEflix - Action</title>
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="../home.html">
+        <h1 class="logo">ACEflix</h1>
+      </a>
+    </div>
+
+    <div class="nav-center">
+      <input type="text" placeholder="Search movies...">
+    </div>
+
+    <div class="nav-right">
+      <a href="../login.html">Login</a>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <div class="container">
+
+    <main class="main-content">
+
+      <!-- GENRES + TABS -->
+      <div class="top-controls">
+        <select class="genre-dropdown" onchange="goToPage(this.value)">
+          <option value="">Genres</option>
+          <option value="action.html">Action</option>
+          <option value="animation.html">Animation</option>
+          <option value="comedy.html">Comedy</option>
+          <option value="documentary.html">Documentary</option>
+          <option value="drama.html">Drama</option>
+          <option value="fantasy.html">Fantasy</option>
+          <option value="horror.html">Horror</option>
+          <option value="musical.html">Musical</option>
+          <option value="romance.html">Romance</option>
+          <option value="sci-fi.html">Sci-Fi</option>
+          <option value="sports.html">Sports</option>
+          <option value="thriller.html">Thriller</option>
+        </select>
+
+        <script>
+          function goToPage(page) {
+            window.location.href = page;
+          }
+        </script>
+
+        <div class="tabs">
+          <button>Featured</button>
+          <button>Popular</button>
+          <button>New</button>
+        </div>
+
+      </div>
+
+      <!-- MOVIE AREA -->
+      <div class="movie-row">
+
+  <!-- Row 1 -->
+  <a href="../GenrLink/Action/Baby-Driver.html">
+    <div class="movie-card"><img src="../photo/Action/landscape/Baby Driver.JPG">
+    <p>Baby Driver</p></div>
+  </a>
+
+  <a href="../GenrLink/Action/Baywatch.html">
+    <div class="movie-card"><img src="../photo/Action/landscape/Baywatch.AVIF">
+    <p>Baywatch</p></div>
+  </a>
+
+  <a href="../GenrLink/Action/Gladiator.html">
+    <div class="movie-card"><img src="../photo/Action/landscape/Gladiator.AVIF">
+    <p>Gladiator</p></div>
+  </a>
+
+
+  <!-- Row 2 -->
+  <a href="../GenrLink/Action/John-Wick.html">
+  <div class="movie-card"><img src="../photo/Action/landscape/John Wick.JPG">
+  <p>John Wick</p></div>
+  </a>
+
+  <a href="../GenrLink/Action/Jumanji.html">
+    <div class="movie-card"><img src="../photo/Action/landscape/Jumanji.JPG">
+    <p>Jumanji</p></div>
+  </a>
+
+  <a href="../GenrLink/Action/Justice-League.html">
+    <div class="movie-card"><img src="../photo/Action/landscape/Justice League.JPG">
+    <p>Justice League</p></div>
+  </a>
+
+
+  <!-- Row 3 -->
+  <a href="../GenrLink/Action/The-Karate-Kid.html">
+    <div class="movie-card"><img src="../photo/Action/landscape/The Karate Kid.JPG">
+    <p>The Karate Kid</p></div>
+  </a>
+
+  <a href="../GenrLink/Action/Kung-Fu-Hustle.html">
+    <div class="movie-card"><img src="../photo/Action/landscape/Kung Fu Hustle.JPG">
+    <p>Kung Fu Hustle</p></div>
+  </a>
+
+  <a href="../GenrLink/Action/Mission-Impossible.html">
+    <div class="movie-card"><img src="../photo/Action/landscape/Mission Impossible.PNG">
+    <p>Mission: Impossible</p></div>
+  </a>
+
+
+  <!-- Row 4 -->
+  <a href="../GenrLink/Action/Mortal-Kombat.html">
+    <div class="movie-card"><img src="../photo/Action/landscape/Mortal Kombat.JPG">
+    <p>Mortal Kombat</p></div>
+  </a>
+
+  <a href="../GenrLink/Action/Rush-Hour.html">
+    <div class="movie-card"><img src="../photo/Action/landscape/Rush Hour.JPG">
+    <p>Rush Hour</p></div>
+  </a>
+
+  <a href="../GenrLink/Action/Skyscraper.html">
+    <div class="movie-card"><img src="../photo/Action/landscape/Skyscraper.WEBP">
+    <p>Skyscraper</p></div>
+  </a>
+
+  <!-- Row 5 -->
+  <a href="../GenrLink/Action/The-Terminator.html">
+    <div class="movie-card"><img src="../photo/Action/landscape/The Terminator.JPG">
+    <p>The Terminator</p></div>
+  </a>
+
+  <a href="../GenrLink/Action/Top-Gun.html">
+    <div class="movie-card"><img src="../photo/Action/landscape/Top Gun.JPG">
+    <p>Top Gun</p></div>
+  </a>
+
+  <a href="../GenrLink/Action/Wanted.html">
+    <div class="movie-card"><img src="../photo/Action/landscape/Wanted.JPG">
+    <p>Wanted</p></div>
+  </a>
+
+    </div>
+       
+    </div>
+
+    </main>
+
+  </div>
+
+</body>
+</html>

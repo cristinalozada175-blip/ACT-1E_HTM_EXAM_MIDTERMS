@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ACEflix - Action</title>
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="../home.html">
+        <h1 class="logo">ACEflix</h1>
+      </a>
+    </div>
+
+    <div class="nav-center">
+      <input type="text" placeholder="Search movies...">
+    </div>
+
+    <div class="nav-right">
+      <a href="../login.html">Login</a>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <div class="container">
+
+    <main class="main-content">
+
+      <!-- GENRES + TABS -->
+      <div class="top-controls">
+        <select class="genre-dropdown" onchange="goToPage(this.value)">
+          <option value="">Genres</option>
+          <option value="action.html">Action</option>
+          <option value="animation.html">Animation</option>
+          <option value="comedy.html">Comedy</option>
+          <option value="documentary.html">Documentary</option>
+          <option value="drama.html">Drama</option>
+          <option value="fantasy.html">Fantasy</option>
+          <option value="horror.html">Horror</option>
+          <option value="musical.html">Musical</option>
+          <option value="romance.html">Romance</option>
+          <option value="sci-fi.html">Sci-Fi</option>
+          <option value="sports.html">Sports</option>
+          <option value="thriller.html">Thriller</option>
+        </select>
+
+        <script>
+          function goToPage(page) {
+            window.location.href = page;
+          }
+        </script>
+
+        <div class="tabs">
+          <button>Featured</button>
+          <button>Popular</button>
+          <button>New</button>
+        </div>
+
+      </div>
+
+      <!-- MOVIE AREA -->
+      <div class="movie-row">
+
+  <!-- Row 1 -->
+  <a href="../GenrLink/Musical/Chicago.html">
+    <div class="movie-card"><img src="../photo/Musical/LANDSCAPE/Chicago.JPG">
+    <p> Chicago</p></div>
+  </a>
+
+  <a href="../GenrLink/Musical/Dear-Evan-Hansen.html">
+    <div class="movie-card"><img src="../photo/Musical/LANDSCAPE/Dear Evan Hansen.JPG">
+    <p>Dear Evan Hansen</p></div>
+  </a>
+
+  <a href="../GenrLink/Musical/Frozen.html">
+    <div class="movie-card"><img src="../photo/Musical/LANDSCAPE/Frozen.JPG">
+    <p>Frozen</p></div>
+  </a>
+
+  <!-- Row 2 -->
+  <a href="../GenrLink/Musical/Hairspray.html">
+    <div class="movie-card"><img src="../photo/Musical/LANDSCAPE/Hairspray.JPG">
+    <p>Hairspray</p></div>
+  </a>
+
+  <a href="../GenrLink/Musical/Hamilton.html">
+    <div class="movie-card"><img src="../photo/Musical/LANDSCAPE/Hamilton.JPG">
+    <p>Hamilton</p></div>
+  </a>
+  <a href="../GenrLink/Musical/Les-Misérables.html">
+    <div class="movie-card"><img src="../photo/Musical/LANDSCAPE/Les Misérables.JPG">
+    <p>Les Misérables</p></div>
+  </a>
+
+  <!-- Row 3 -->
+  <a href="../GenrLink/Musical/Little-Shop-of-Horrors.html">
+    <div class="movie-card"><img src="../photo/Musical/LANDSCAPE/Little Shop of Horrors.JPG">
+    <p>Little Shop of Horrors</p></div>
+  </a>
+  <a href="../GenrLink/Musical/Mamma-Mia.html">
+    <div class="movie-card"><img src="../photo/Musical/LANDSCAPE/Mamma Mia!.JPG">
+    <p>Mamma Mia!</p></div>
+  </a>
+  <a href="../GenrLink/Musical/Moana.html">
+    <div class="movie-card"><img src="../photo/Musical/LANDSCAPE/Moana.WEBP">
+    <p>Moana</p></div>
+  </a>
+
+  <!-- Row 4 -->
+  <a href="../GenrLink/Musical/Newsies.html">
+    <div class="movie-card"><img src="../photo/Musical/LANDSCAPE/Newsies.WEBP">
+    <p>Newsies</p></div>
+  </a>
+  <a href="../GenrLink/Musical/Pitch-Perfect.html">
+    <div class="movie-card"><img src="../photo/Musical/LANDSCAPE/Pitch Perfect.JPG">
+    <p>Pitch Perfect</p></div>
+  </a>
+  <a href="../GenrLink/Musical/Singin-in-the-Rain.html">
+    <div class="movie-card"><img src="../photo/Musical/LANDSCAPE/Singin’ in the Rain.JPG">
+    <p>Singin’ in the Rain</p></div>
+  </a>
+
+  <!-- Row 5 -->
+  <a href="../GenrLink/Musical/The-Greatest-Showman.html">
+    <div class="movie-card"><img src="../photo/Musical/LANDSCAPE/The Greatest Showman.WEBP">
+    <p>The Greatest Showman</p></div>
+  </a>
+  <a href="../GenrLink/Musical/West-Side-Story.html">
+    <div class="movie-card"><img src="../photo/Musical/LANDSCAPE/West Side Story.WEBP">
+    <p>West Side Story</p></div>
+  </a>
+  <a href="../GenrLink/Musical/Whiplash.html">
+    <div class="movie-card"><img src="../photo/Musical/LANDSCAPE/Whiplash.WEBP">
+    <p>Whiplash</p></div>
+  </a>
+
+</div>
+       
+       
+
+       
+
+    </div>
+
+    </main>
+
+  </div>
+
+</body>
+</html>

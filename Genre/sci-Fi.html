@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ACEflix - Action</title>
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="../home.html">
+        <h1 class="logo">ACEflix</h1>
+      </a>
+    </div>
+
+    <div class="nav-center">
+      <input type="text" placeholder="Search movies...">
+    </div>
+
+    <div class="nav-right">
+      <a href="../login.html">Login</a>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <div class="container">
+
+    <main class="main-content">
+
+      <!-- GENRES + TABS -->
+      <div class="top-controls">
+        <select class="genre-dropdown" onchange="goToPage(this.value)">
+          <option value="">Genres</option>
+          <option value="action.html">Action</option>
+          <option value="animation.html">Animation</option>
+          <option value="comedy.html">Comedy</option>
+          <option value="documentary.html">Documentary</option>
+          <option value="drama.html">Drama</option>
+          <option value="fantasy.html">Fantasy</option>
+          <option value="horror.html">Horror</option>
+          <option value="musical.html">Musical</option>
+          <option value="romance.html">Romance</option>
+          <option value="sci-fi.html">Sci-Fi</option>
+          <option value="sports.html">Sports</option>
+          <option value="thriller.html">Thriller</option>
+        </select>
+
+        <script>
+          function goToPage(page) {
+            window.location.href = page;
+          }
+        </script>
+
+        <div class="tabs">
+          <button>Featured</button>
+          <button>Popular</button>
+          <button>New</button>
+        </div>
+
+      </div>
+
+      <!-- MOVIE AREA -->
+      <div class="movie-row">
+
+  <!-- Row 1 -->
+  <a href="../GenrLink/Sci-Fi/Avengers-Endgame.html">
+  <div class="movie-card"><img src="../photo/Sci-Fi/landscape/Avengers Endgame.WEBP">
+  <p>Avengers: Endgame</p></div>
+  </a>
+
+  <a href="../GenrLink/Sci-Fi/Back-to-the-Future.html">
+    <div class="movie-card"><img src="../photo/Sci-Fi/landscape/Back to the Future.WEBP">
+    <p>Back to the Future</p></div>
+  </a>
+
+  <a href="../GenrLink/Sci-Fi/Big-Hero-6.html">
+    <div class="movie-card"><img src="../photo/Sci-Fi/landscape/Big Hero 6.WEBP">
+    <p>Big Hero 6</p></div>
+  </a>
+
+  <!-- Row 2 -->
+  <a href="../GenrLink/Sci-Fi/Blade-Runner.html">
+    <div class="movie-card"><img src="../photo/Sci-Fi/landscape/Blade Runner.JPG">
+    <p>Blade Runner</p></div>
+  </a>
+
+  <a href="../GenrLink/Sci-Fi/Captain-America.html">
+    <div class="movie-card"><img src="../photo/Sci-Fi/landscape/Captain America The Winter Soldier.JPG">
+    <p>Captain America: The Winter Soldier</p></div>
+  </a>
+
+  <a href="../GenrLink/Sci-Fi/Dune.html">
+    <div class="movie-card"><img src="../photo/Sci-Fi/landscape/Dune.WEBP">
+    <p>Dune</p></div>
+  </a>
+
+  <!-- Row 3 -->
+  <a href="../GenrLink/Sci-Fi/Godzilla.html">
+    <div class="movie-card"><img src="../photo/Sci-Fi/landscape/Godzilla.JPG">
+    <p>Godzilla</p></div>
+  </a>
+
+  <a href="../GenrLink/Sci-Fi/Interstellar.html">
+    <div class="movie-card"><img src="../photo/Sci-Fi/landscape/Interstellar.AVIF">
+    <p>Interstellar</p></div>
+  </a>
+
+  <a href="../GenrLink/Sci-Fi/Metropolis.html">
+    <div class="movie-card"><img src="../photo/Sci-Fi/landscape/Metropolis.JPG">
+    <p>Metropolis</p></div>
+  </a>
+
+  <!-- Row 4 -->
+  <a href="../GenrLink/Sci-Fi/Spider-Man.html">
+    <div class="movie-card"><img src="../photo/Sci-Fi/landscape/Spider-Man Across the Spider-Verse.WEBP">
+    <p>Spider-Man Across the Spider-Verse</p></div>
+  </a>
+
+  <a href="../GenrLink/Sci-Fi/Star-Wars.html">
+    <div class="movie-card"><img src="../photo/Sci-Fi/landscape/Star Wars Episode IV – A New Hope.WEBP">
+    <p>Star Wars: Episode IV – A New Hope</p></div>
+  </a>
+
+  <a href="../GenrLink/Sci-Fi/The-Matrix.html">
+    <div class="movie-card"><img src="../photo/Sci-Fi/landscape/The Matrix.WEBP">
+    <p>The Matrix</p></div>
+  </a>
+
+  <!-- Row 5 -->
+  <a href="../GenrLink/Sci-Fi/WALL-E.html">
+    <div class="movie-card"><img src="../photo/Sci-Fi/landscape/WALL-E.WEBP">
+    <p>WALL-E</p></div>
+  </a>
+  
+  <a href="../GenrLink/Sci-Fi/War-Machine.html">
+    <div class="movie-card"><img src="../photo/Sci-Fi/landscape/War Machine.WEBP">
+    <p>War Machine</p></div>
+  </a>
+
+  <a href="../GenrLink/Sci-Fi/Zootopia.html">
+    <div class="movie-card"><img src="../photo/Sci-Fi/landscape/Zootopia.WEBP">
+    <p>Zootopia</p></div>
+  </a>
+
+</div>
+       
+       
+
+       
+
+    </div>
+
+    </main>
+
+  </div>
+
+</body>
+</html>

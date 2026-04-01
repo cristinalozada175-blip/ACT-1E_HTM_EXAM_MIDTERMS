@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ACEflix - Action</title>
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="../home.html">
+        <h1 class="logo">ACEflix</h1>
+      </a>
+    </div>
+
+    <div class="nav-center">
+      <input type="text" placeholder="Search movies...">
+    </div>
+
+    <div class="nav-right">
+      <a href="../login.html">Login</a>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <div class="container">
+
+    <main class="main-content">
+
+      <!-- GENRES + TABS -->
+      <div class="top-controls">
+        <select class="genre-dropdown" onchange="goToPage(this.value)">
+          <option value="">Genres</option>
+          <option value="action.html">Action</option>
+          <option value="animation.html">Animation</option>
+          <option value="comedy.html">Comedy</option>
+          <option value="documentary.html">Documentary</option>
+          <option value="drama.html">Drama</option>
+          <option value="fantasy.html">Fantasy</option>
+          <option value="horror.html">Horror</option>
+          <option value="musical.html">Musical</option>
+          <option value="romance.html">Romance</option>
+          <option value="sci-fi.html">Sci-Fi</option>
+          <option value="sports.html">Sports</option>
+          <option value="thriller.html">Thriller</option>
+        </select>
+
+        <script>
+          function goToPage(page) {
+            window.location.href = page;
+          }
+        </script>
+
+        <div class="tabs">
+          <button>Featured</button>
+          <button>Popular</button>
+          <button>New</button>
+        </div>
+
+      </div>
+
+      <!-- MOVIE AREA -->
+      <div class="movie-row">
+
+  <!-- Row 1 -->
+  <a href="../GenrLink/Fantasy/Alice-in-Wonderland.html">
+    <div class="movie-card"><img src="../photo/Fantasy/LANDSCAPE/Alice in Wonderland.JPG">
+    <p>Alice in Wonderland</p></div>
+  </a>
+
+  <a href="../GenrLink/Fantasy/Avatar.html">
+    <div class="movie-card"><img src="../photo/Fantasy/LANDSCAPE/Avatar.JPG"><p>Avatar</p></div>
+  </a>
+
+  <a href="../GenrLink/Fantasy/The-Chronicles-of-Narnia.html">
+    <div class="movie-card"><img src="../photo/Fantasy/LANDSCAPE/The Chronicles of Narnia The Lion, the Witch and the Wardrobe.WEBP">
+    <p>The Chronicles of Narnia: The Lion, the Witch and the Wardrobe</p></div>
+  </a>
+
+  <!-- Row 2 -->
+  <a href="../GenrLink/Fantasy/Doctor-Strange.html">
+    <div class="movie-card"><img src="../photo/Fantasy/LANDSCAPE/Doctor Strange.JPG">
+    <p>Doctor Strange</p></div>
+  </a>
+
+  <a href="../GenrLink/Fantasy/Fantastic-Beasts.html">
+    <div class="movie-card"><img src="../photo/Fantasy/LANDSCAPE/Fantastic Beasts and Where to Find Them.JPG">
+    <p>Fantastic Beasts and Where to Find Them</p></div>
+  </a>
+
+  <a href="../GenrLink/Fantasy/Harry-Potter-and-the-Sorcerer’s-Stone.html">
+    <div class="movie-card"><img src="../photo/Fantasy/LANDSCAPE/Harry Potter and the Sorcerer’s Stone.JPG.">
+    <p>Harry Potter and the Sorcerer’s Stone</p></div>
+  </a>
+
+  <!-- Row 3 -->
+  <a href="../GenrLink/Fantasy/The-Hobbit.html">
+    <div class="movie-card"><img src="../photo/Fantasy/LANDSCAPE/The Hobbit An Unexpected Journey.WEBP">
+    <p>The Hobbit An Unexpected Journey</p></div>
+  </a>
+
+  <a href="../GenrLink/Fantasy/Jumanji.html">
+    <div class="movie-card"><img src="../photo/Fantasy/LANDSCAPE/Jumanji.WEBP">
+    <p>Jumanji</p></div>
+  </a>
+
+  <a href="../GenrLink/Fantasy/The-Lord-of-the-Rings.html">
+    <div class="movie-card"><img src="../photo/Fantasy/LANDSCAPE/The Lord of the Rings The Fellowship of the Ring.JPG">
+    <p>The Lord of the Rings The Fellowship of the Ring</p></div>
+  </a>
+
+  <!-- Row 4 -->
+  <a href="../GenrLink/Fantasy/Maleficent.html">
+    <div class="movie-card"><img src="../photo/Fantasy/LANDSCAPE/Maleficent.WEBP">
+    <p>Maleficent</p></div>
+  </a>
+
+  <a href="../GenrLink/Fantasy/Pan’s-Labyrinth.html">
+    <div class="movie-card"><img src="../photo/Fantasy/LANDSCAPE/Pan’s Labyrinth.JPG">
+    <p>Pan’s Labyrinth</p></div>
+  </a>
+
+  <a href="../GenrLink/Fantasy/Pirates-of-the-Caribbean.html">
+    <div class="movie-card"><img src="../photo/Fantasy/LANDSCAPE/Pirates of the Caribbean The Curse of the Black Pearl.JPG">
+    <p>Pirates of the Caribbean: The Curse of the Black Pearl</p></div>
+  </a>
+
+  <!-- Row 5 -->
+  <a href="../GenrLink/Fantasy/The-Princess-Bride.html">
+    <div class="movie-card"><img src="../photo/Fantasy/LANDSCAPE/The Princess Bride.WEBP">
+    <p>The Princess Bride</p></div>
+  </a>
+
+  <a href="../GenrLink/Fantasy/Shrek.html">
+    <div class="movie-card"><img src="../photo/Fantasy/LANDSCAPE/Shrek.PNG">
+    <p>Shrek</p></div>
+  </a>
+
+  <a href="../GenrLink/Fantasy/Stardust.html">
+    <div class="movie-card"><img src="../photo/Fantasy/LANDSCAPE/Stardust.WEBP">
+    <p>Stardust</p></div>
+  </a>
+
+</div>
+       
+       
+
+       
+
+    </div>
+
+    </main>
+
+  </div>
+
+</body>
+</html>

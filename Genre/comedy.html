@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ACEflix - Action</title>
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="../home.html">
+        <h1 class="logo">ACEflix</h1>
+      </a>
+    </div>
+
+    <div class="nav-center">
+      <input type="text" placeholder="Search movies...">
+    </div>
+
+    <div class="nav-right">
+      <a href="../login.html">Login</a>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <div class="container">
+
+    <main class="main-content">
+
+      <!-- GENRES + TABS -->
+      <div class="top-controls">
+        <select class="genre-dropdown" onchange="goToPage(this.value)">
+          <option value="">Genres</option>
+          <option value="action.html">Action</option>
+          <option value="animation.html">Animation</option>
+          <option value="comedy.html">Comedy</option>
+          <option value="documentary.html">Documentary</option>
+          <option value="drama.html">Drama</option>
+          <option value="fantasy.html">Fantasy</option>
+          <option value="horror.html">Horror</option>
+          <option value="musical.html">Musical</option>
+          <option value="romance.html">Romance</option>
+          <option value="sci-fi.html">Sci-Fi</option>
+          <option value="sports.html">Sports</option>
+          <option value="thriller.html">Thriller</option>
+        </select>
+
+        <script>
+          function goToPage(page) {
+            window.location.href = page;
+          }
+        </script>
+
+        <div class="tabs">
+          <button>Featured</button>
+          <button>Popular</button>
+          <button>New</button>
+        </div>
+
+      </div>
+
+      <!-- MOVIE AREA -->
+      <div class="movie-row">
+
+  <!-- Row 1 -->
+  <a href="../GenrLink/Comedy/21-Jump-Street.html">
+    <div class="movie-card"><img src="../photo/Comedy/landscape/21 Jump Street.JPG">
+    <p>21 Jump Street</p></div>
+  </a>
+
+  <a href="../GenrLink/Comedy/Bridesmaids.html">
+      <div class="movie-card"><img src="../photo/Comedy/landscape/Bridesmaids.JPG">
+      <p>Bridesmaids</p></div>
+  </a>
+
+  <a href="../GenrLink/Comedy/Crazy-Rich-Asians.html">
+    <div class="movie-card"><img src="../photo/Comedy/landscape/Crazy Rich Asians.JPG">
+    <p>Crazy Rich Asians</p></div>
+  </a>
+  <!-- Row 2 -->
+   <a href="../GenrLink/Comedy/Deadpool.html">
+    <div class="movie-card"><img src="../photo/Comedy/landscape/Deadpool.WEBP">
+      <p>Deadpool</p></div>
+   </a>
+  <a href="../GenrLink/Comedy/The-Hangover.html">
+    <div class="movie-card"><img src="../photo/Comedy/landscape/The Hangover.JPG">
+      <p>The Hangover</p></div>
+  </a>
+  <a href="../GenrLink/Comedy/Home-Alone.html">
+    <div class="movie-card"><img src="../photo/Comedy/landscape/Home Alone.JPG">
+      <p>Home Alone</p></div>
+  </a>
+
+  <!-- Row 3 -->
+  <a href="../GenrLink/Comedy/Johnny-English.html">
+    <div class="movie-card"><img src="../photo/Comedy/landscape/Johnny English.WEBP">
+      <p>Johnny English</p></div>
+  </a>
+  <a href="../GenrLink/Comedy/Legally-Blonde.html">
+    <div class="movie-card"><img src="../photo/Comedy/landscape/Legally Blonde.JPG">
+      <p>Legally Blonde</p></div>
+  </a>
+  <a href="../GenrLink/Comedy/Mean-Girls.html">
+    <div class="movie-card"><img src="../photo/Comedy/landscape/Mean Girls.JPG">
+      <p>Mean Girls</p></div>
+  </a>
+
+  <!-- Row 4 -->
+  <a href="../GenrLink/Comedy/Pitch-Perfect.html">
+    <div class="movie-card"><img src="../photo/Comedy/landscape/Pitch Perfect.JPG">
+      <p>Pitch Perfect</p></div>
+  </a>
+  <a href="../GenrLink/Comedy/School-of-Rock.html">
+    <div class="movie-card"><img src="../photo/Comedy/landscape/School of Rock.JPG">
+      <p>School of Rock</p></div>
+  </a>
+  <a href="../GenrLink/Comedy/Superbad.html">
+    <div class="movie-card"><img src="../photo/Comedy/landscape/Superbad.WEBP">
+      <p>Superbad</p></div>
+  </a>
+
+  <!-- Row 5 -->
+  <a href="../GenrLink/Comedy/The-40-Year-Old-Virgin.html">
+    <div class="movie-card"><img src="../photo/Comedy/landscape/The 40-Year-Old Virgin.JPG">
+      <p>The 40-Year-Old Virgin</p></div>
+  </a>
+  <a href="../GenrLink/Comedy/The-Mask.html">
+    <div class="movie-card"><img src="../photo/Comedy/landscape/The Mask.AVIF">
+      <p>The Mask</p></div>
+  </a>
+  <a href="../GenrLink/Comedy/Zombieland.html">
+    <div class="movie-card"><img src="../photo/Comedy/landscape/Zombieland.JPG">
+      <p>Zombieland</p></div>
+  </a>
+
+</div>
+       
+       
+
+       
+
+    </div>
+
+    </main>
+
+  </div>
+
+</body>
+</html>
